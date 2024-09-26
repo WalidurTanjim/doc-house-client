@@ -3,7 +3,7 @@ import { ClockIcon, MapPinIcon, PhoneArrowUpRightIcon } from '@heroicons/react/2
 
 const InfoCard = () => {
     return (
-        <section className='infoCards container mx-auto px-5 mx:px-0 my-16 grid gap-6 lg:gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3'>
+        <section className='infoCards container mx-auto px-5 xl:px-0 my-16 grid gap-6 lg:gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3'>
             <div className='infoCard rounded-md p-5 bg-[#07332F] text-white flex sm:col-span-1 md:col-span-1'>
                 <span><ClockIcon className='text-white w-7 h-7'></ClockIcon></span>
 
