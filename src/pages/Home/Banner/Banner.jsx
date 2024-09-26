@@ -16,13 +16,13 @@ const Banner = () => {
                     <div>
                         <h1 className='text-2xl md:text-4xl font-medium'>Your Best Medical <br />Help Center</h1>
                         <p className='my-5'>Medical treatment is essential for diagnosing, managing, and curing illnesses, ensuring overall health and well-being. It helps prevent complications and improves the quality of life.</p>
-                        <button className='py-2 px-5 rounded-md bg-[#F7A582] text-sm'>All Services</button>
+                        <button className='py-2 px-5 rounded-md bg-[#F7A582] hover:bg-[#f7824f] active:bg-[#F7A582] text-sm'>All Services</button>
                     </div>
                 </div>
 
                 {/* bannerImage div */}
                 <div className='relative flex justify-center items-center'>
-                    <img src={leanPill} alt="" className='absolute top-0 left-0 h-[150px]' />
+                    <img src={leanPill} alt="" className='absolute top-0 left-0 h-[150px] hidden md:block' />
                     <img src={banner} alt="Banner Image" className='h-[300px] lg:h-[450px]' />
                 </div>
            </div> 

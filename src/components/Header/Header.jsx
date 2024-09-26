@@ -2,7 +2,7 @@ import React from 'react';
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/Group36.png';
+import logo from '../../assets/images/logo.png';
 
 const navigation = [
     { name: 'Dashboard', href: '#', current: true },
