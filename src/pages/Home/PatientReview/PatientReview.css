@@ -1,0 +1,27 @@
+.swiper-pagination{
+    display: none;
+}
+
+
+.swiper-button-prev:after,
+.swiper-button-next:after{
+    color: #F7A582;
+    font-size: 16px!important;
+}
+.swiper-button-prev:hover:after,
+.swiper-button-next:hover:after{
+    color: white;
+}
+.swiper-button-prev{
+    border: 1px solid #F7A582;
+    border-radius: 100%;
+}
+.swiper-button-next{
+    border: 1px solid #F7A582;
+    border-radius: 100%;
+}
+.swiper-button-prev:hover,
+.swiper-button-next:hover{
+    background-color: #F7A582;
+    color: #fff!important;
+}
