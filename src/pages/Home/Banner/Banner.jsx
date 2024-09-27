@@ -1,6 +1,6 @@
 import React from 'react';
 import banner from '../../../assets/images/banner_02.png';
-import topVector from '../../../assets/images/Vector-2.png';
+import topVector from '../../../assets/images/half_pill.png';
 import verticalPill from '../../../assets/images/vertical_pill.png';
 import leanPill from '../../../assets/images/lean_pill.png';
 
