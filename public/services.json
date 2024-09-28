@@ -5,82 +5,102 @@
         "services": [
             {
                 "serviceName": "Traditional Metal Braces",
+                "image": "https://i.ibb.co.com/4ZBhbqL/srv-Teeth-Orthodontics.png",
                 "description": "Fixed metal brackets and wires used to gradually straighten teeth."
             },
             {
                 "serviceName": "Ceramic Braces",
+                "image": "https://i.ibb.co.com/4ZBhbqL/srv-Teeth-Orthodontics.png",
                 "description": "Similar to metal braces, but with clear or tooth-colored brackets for a less noticeable appearance."
             },
             {
                 "serviceName": "Lingual Braces",
+                "image": "https://i.ibb.co.com/4ZBhbqL/srv-Teeth-Orthodontics.png",
                 "description": "Braces placed on the inside (tongue side) of the teeth, hidden from view."
             },
             {
                 "serviceName": "Clear Aligners",
+                "image": "https://i.ibb.co.com/4ZBhbqL/srv-Teeth-Orthodontics.png",
                 "description": "Removable, clear trays used to gradually shift teeth without wires or brackets."
             },
             {
                 "serviceName": "Self-Ligating Braces",
+                "image": "https://i.ibb.co.com/4ZBhbqL/srv-Teeth-Orthodontics.png",
                 "description": "Braces that use a sliding mechanism to hold the archwire, resulting in less friction and potentially faster treatment."
             },
             {
                 "serviceName": "Retainers",
+                "image": "https://i.ibb.co.com/4ZBhbqL/srv-Teeth-Orthodontics.png",
                 "description": "Custom-made devices used after braces or aligners to keep teeth in their new position."
             },
             {
                 "serviceName": "Palatal Expanders",
+                "image": "https://i.ibb.co.com/4ZBhbqL/srv-Teeth-Orthodontics.png",
                 "description": "Devices used to widen the upper jaw, often used for children to create more space for teeth alignment."
             },
             {
                 "serviceName": "Space Maintainers",
+                "image": "https://i.ibb.co.com/4ZBhbqL/srv-Teeth-Orthodontics.png",
                 "description": "Appliances used in children to hold space for permanent teeth after baby teeth are lost prematurely."
             },
             {
                 "serviceName": "Forsus or Herbst Appliances",
+                "image": "https://i.ibb.co.com/4ZBhbqL/srv-Teeth-Orthodontics.png",
                 "description": "Devices used to correct bite issues, such as overbites, by repositioning the jaw."
             },
             {
                 "serviceName": "Elastics (Rubber Bands)",
+                "image": "https://i.ibb.co.com/4ZBhbqL/srv-Teeth-Orthodontics.png",
                 "description": "Small rubber bands used with braces to improve bite alignment by applying extra pressure to teeth."
             },
             {
                 "serviceName": "Headgear",
+                "image": "https://i.ibb.co.com/4ZBhbqL/srv-Teeth-Orthodontics.png",
                 "description": "An external device used to guide the growth of the jaw and improve bite alignment in severe cases."
             },
             {
                 "serviceName": "Temporary Anchorage Devices (TADs)",
+                "image": "https://i.ibb.co.com/4ZBhbqL/srv-Teeth-Orthodontics.png",
                 "description": "Small titanium screws inserted into the jawbone to provide additional support for tooth movement."
             },
             {
                 "serviceName": "Jaw Surgery (Orthognathic Surgery)",
+                "image": "https://i.ibb.co.com/4ZBhbqL/srv-Teeth-Orthodontics.png",
                 "description": "Surgical procedures to correct severe jaw misalignment, often used in conjunction with braces."
             },
             {
                 "serviceName": "Clear Retainers",
+                "image": "https://i.ibb.co.com/4ZBhbqL/srv-Teeth-Orthodontics.png",
                 "description": "Clear, removable retainers designed to maintain teeth position after orthodontic treatment."
             },
             {
                 "serviceName": "Bite Correction Appliances",
+                "image": "https://i.ibb.co.com/4ZBhbqL/srv-Teeth-Orthodontics.png",
                 "description": "Appliances used to treat bite problems such as crossbites, underbites, or overbites."
             },
             {
                 "serviceName": "Orthodontic Spacers",
+                "image": "https://i.ibb.co.com/4ZBhbqL/srv-Teeth-Orthodontics.png",
                 "description": "Small rubber or metal devices placed between teeth to create space before braces are applied."
             },
             {
                 "serviceName": "Orthodontic Wax",
+                "image": "https://i.ibb.co.com/4ZBhbqL/srv-Teeth-Orthodontics.png",
                 "description": "Soft wax used to cover brackets or wires that irritate the inside of the mouth during braces treatment."
             },
             {
                 "serviceName": "Aligner Chewies",
+                "image": "https://i.ibb.co.com/4ZBhbqL/srv-Teeth-Orthodontics.png",
                 "description": "Small chewable devices used to help seat aligners properly for better fit and effectiveness."
             },
             {
                 "serviceName": "Dental Splints",
+                "image": "https://i.ibb.co.com/4ZBhbqL/srv-Teeth-Orthodontics.png",
                 "description": "Used to stabilize teeth in cases of trauma or severe malocclusion."
             },
             {
                 "serviceName": "Accelerated Orthodontics",
+                "image": "https://i.ibb.co.com/4ZBhbqL/srv-Teeth-Orthodontics.png",
                 "description": "Techniques or devices used to speed up tooth movement during orthodontic treatment."
             }
         ]
@@ -91,90 +111,112 @@
         "services": [
             {
                 "serviceName": "Teeth Whitening",
+                "image": "https://i.ibb.co.com/dQ8jSJB/srv-Cosmetic-Dentisty.png",
                 "description": "Professional treatment to lighten and brighten discolored or stained teeth."
             },
             {
                 "serviceName": "Dental Veneers",
+                "image": "https://i.ibb.co.com/dQ8jSJB/srv-Cosmetic-Dentisty.png",
                 "description": "Thin, custom-made shells (porcelain or composite) placed over the front of teeth to improve appearance."
             },
             {
                 "serviceName": "Dental Bonding",
+                "image": "https://i.ibb.co.com/dQ8jSJB/srv-Cosmetic-Dentisty.png",
                 "description": "Application of tooth-colored resin to repair chipped, cracked, or discolored teeth."
             },
             {
                 "serviceName": "Dental Crowns",
+                "image": "https://i.ibb.co.com/dQ8jSJB/srv-Cosmetic-Dentisty.png",
                 "description": "Caps placed over damaged or decayed teeth to restore their shape, size, and appearance."
             },
             {
                 "serviceName": "Inlays and Onlays",
+                "image": "https://i.ibb.co.com/dQ8jSJB/srv-Cosmetic-Dentisty.png",
                 "description": "Custom-made fillings (often porcelain or gold) used for larger cavities or damage that traditional fillings can't fix."
             },
             {
                 "serviceName": "Clear Aligners",
+                "image": "https://i.ibb.co.com/dQ8jSJB/srv-Cosmetic-Dentisty.png",
                 "description": "Clear, removable trays used to straighten teeth without traditional braces."
             },
             {
                 "serviceName": "Orthodontics",
+                "image": "https://i.ibb.co.com/dQ8jSJB/srv-Cosmetic-Dentisty.png",
                 "description": "Traditional or ceramic braces used to straighten crooked or misaligned teeth."
             },
             {
                 "serviceName": "Gum Contouring",
+                "image": "https://i.ibb.co.com/dQ8jSJB/srv-Cosmetic-Dentisty.png",
                 "description": "Procedure to reshape or remove excess gum tissue to improve the appearance of a 'gummy smile.'"
             },
             {
                 "serviceName": "Dental Implants",
+                "image": "https://i.ibb.co.com/dQ8jSJB/srv-Cosmetic-Dentisty.png",
                 "description": "Titanium posts surgically placed in the jawbone to replace missing teeth, topped with a natural-looking crown."
             },
             {
                 "serviceName": "Smile Makeover",
+                "image": "https://i.ibb.co.com/dQ8jSJB/srv-Cosmetic-Dentisty.png",
                 "description": "A comprehensive plan combining multiple cosmetic treatments to achieve the perfect smile."
             },
             {
                 "serviceName": "Full Mouth Reconstruction",
+                "image": "https://i.ibb.co.com/dQ8jSJB/srv-Cosmetic-Dentisty.png",
                 "description": "Combination of cosmetic and restorative procedures to improve the health, function, and appearance of the entire mouth."
             },
             {
                 "serviceName": "Tooth Reshaping",
+                "image": "https://i.ibb.co.com/dQ8jSJB/srv-Cosmetic-Dentisty.png",
                 "description": "Minor adjustments to the shape of teeth by removing small amounts of enamel to improve appearance."
             },
             {
                 "serviceName": "Composite Fillings",
+                "image": "https://i.ibb.co.com/dQ8jSJB/srv-Cosmetic-Dentisty.png",
                 "description": "Tooth-colored fillings used to repair cavities or damage, providing a natural look compared to metal fillings."
             },
             {
                 "serviceName": "Porcelain Bridges",
+                "image": "https://i.ibb.co.com/dQ8jSJB/srv-Cosmetic-Dentisty.png",
                 "description": "Dental prosthetics used to replace missing teeth by anchoring artificial teeth to adjacent natural teeth."
             },
             {
                 "serviceName": "Porcelain Onlays/Overlays",
+                "image": "https://i.ibb.co.com/dQ8jSJB/srv-Cosmetic-Dentisty.png",
                 "description": "Partial crowns used to cover a damaged portion of a tooth without completely capping it."
             },
             {
                 "serviceName": "Dental Bridges",
+                "image": "https://i.ibb.co.com/dQ8jSJB/srv-Cosmetic-Dentisty.png",
                 "description": "Fixed prosthetics that bridge the gap created by one or more missing teeth."
             },
             {
                 "serviceName": "Cosmetic Dentures",
+                "image": "https://i.ibb.co.com/dQ8jSJB/srv-Cosmetic-Dentisty.png",
                 "description": "Dentures designed for a more natural appearance, providing function and aesthetics for patients with missing teeth."
             },
             {
                 "serviceName": "Tooth Jewelry",
+                "image": "https://i.ibb.co.com/dQ8jSJB/srv-Cosmetic-Dentisty.png",
                 "description": "Small decorative gems or diamonds placed on the surface of the teeth for aesthetic appeal."
             },
             {
                 "serviceName": "Laser Teeth Whitening",
+                "image": "https://i.ibb.co.com/dQ8jSJB/srv-Cosmetic-Dentisty.png",
                 "description": "Advanced teeth whitening using laser technology for faster and more effective results."
             },
             {
                 "serviceName": "Botox and Dermal Fillers",
+                "image": "https://i.ibb.co.com/dQ8jSJB/srv-Cosmetic-Dentisty.png",
                 "description": "Used around the mouth to smooth wrinkles and enhance the overall appearance of a smile."
             },
             {
                 "serviceName": "Enamel Microabrasion",
+                "image": "https://i.ibb.co.com/dQ8jSJB/srv-Cosmetic-Dentisty.png",
                 "description": "Removal of superficial stains and discoloration by gently buffing the enamel."
             },
             {
                 "serviceName": "Orthognathic Surgery",
+                "image": "https://i.ibb.co.com/dQ8jSJB/srv-Cosmetic-Dentisty.png",
                 "description": "Corrective surgery to improve facial balance, address jaw irregularities, and enhance the appearance of the face."
             }
         ]
@@ -185,62 +227,77 @@
         "services": [
             {
                 "serviceName": "Prophylaxis ",
+                "image": "https://i.ibb.co.com/YWDx4BT/srv-Teeth-Cleaning.png",
                 "description": "Routine cleaning to remove plaque, tartar, and stains from teeth, usually done every 6 months."
             },
             {
                 "serviceName": "Scaling and Root Planing",
+                "image": "https://i.ibb.co.com/YWDx4BT/srv-Teeth-Cleaning.png",
                 "description": "A more intensive cleaning procedure for patients with gum disease, involving the removal of plaque and tartar from below the gumline and smoothing the tooth roots."
             },
             {
                 "serviceName": "Gross Debridement",
+                "image": "https://i.ibb.co.com/YWDx4BT/srv-Teeth-Cleaning.png",
                 "description": "An initial cleaning to remove heavy plaque and tartar buildup in patients who have not had regular cleanings and are at risk for periodontal disease."
             },
             {
                 "serviceName": "Periodontal Maintenance",
+                "image": "https://i.ibb.co.com/YWDx4BT/srv-Teeth-Cleaning.png",
                 "description": "Ongoing cleaning for patients with gum disease, performed at more frequent intervals than regular cleanings to prevent progression of the disease."
             },
             {
                 "serviceName": "Air Polishing",
+                "image": "https://i.ibb.co.com/YWDx4BT/srv-Teeth-Cleaning.png",
                 "description": "A cleaning technique that uses a high-pressure jet of air, water, and an abrasive agent to remove stains and plaque from teeth."
             },
             {
                 "serviceName": "Fluoride Treatment",
+                "image": "https://i.ibb.co.com/YWDx4BT/srv-Teeth-Cleaning.png",
                 "description": "Application of fluoride to strengthen tooth enamel and help prevent cavities after a cleaning."
             },
             {
                 "serviceName": "Laser Bacterial Reduction",
+                "image": "https://i.ibb.co.com/YWDx4BT/srv-Teeth-Cleaning.png",
                 "description": "Laser treatment used to reduce the bacterial load in the gums and prevent gum disease, often done alongside regular cleaning."
             },
             {
                 "serviceName": "Ultrasonic Cleaning",
+                "image": "https://i.ibb.co.com/YWDx4BT/srv-Teeth-Cleaning.png",
                 "description": "Use of ultrasonic tools that vibrate at high frequency to break up plaque, tartar, and stains more efficiently than manual scaling."
             },
             {
                 "serviceName": "Teeth Polishing",
+                "image": "https://i.ibb.co.com/YWDx4BT/srv-Teeth-Cleaning.png",
                 "description": "A cosmetic cleaning procedure to remove surface stains and make teeth smooth and shiny after plaque and tartar removal."
             },
             {
                 "serviceName": "Stain Removal",
+                "image": "https://i.ibb.co.com/YWDx4BT/srv-Teeth-Cleaning.png",
                 "description": "Targeted removal of external stains caused by food, drinks, or smoking through scaling, polishing, or air polishing."
             },
             {
                 "serviceName": "Dental Sealants",
+                "image": "https://i.ibb.co.com/YWDx4BT/srv-Teeth-Cleaning.png",
                 "description": "A preventive measure to apply a protective coating on the chewing surfaces of molars after cleaning, reducing the risk of cavities."
             },
             {
                 "serviceName": "Saliva Testing for Bacterial Load",
+                "image": "https://i.ibb.co.com/YWDx4BT/srv-Teeth-Cleaning.png",
                 "description": "A diagnostic service to analyze the levels of harmful bacteria in saliva, aiding in personalized cleaning and treatment plans."
             },
             {
                 "serviceName": "Antimicrobial Therapy",
+                "image": "https://i.ibb.co.com/YWDx4BT/srv-Teeth-Cleaning.png",
                 "description": "Application of antimicrobial agents to reduce bacterial infection in the gums, often used in conjunction with deep cleaning."
             },
             {
                 "serviceName": "Gum Therapy",
+                "image": "https://i.ibb.co.com/YWDx4BT/srv-Teeth-Cleaning.png",
                 "description": "A cleaning service that targets gum health, helping to remove bacteria and prevent periodontal disease."
             },
             {
                 "serviceName": "Oral Hygiene Instruction",
+                "image": "https://i.ibb.co.com/YWDx4BT/srv-Teeth-Cleaning.png",
                 "description": "Education on brushing, flossing, and maintaining oral hygiene at home to support the results of professional teeth cleaning."
             }
         ]
@@ -251,66 +308,82 @@
         "services": [
             {
                 "serviceName": "Fluoride Treatment",
+                "image": "https://i.ibb.co.com/k3LHZjx/srv-Cavity-Protection.png",
                 "description": "Application of fluoride to strengthen tooth enamel and help prevent the formation of cavities."
             },
             {
                 "serviceName": "Dental Sealants",
+                "image": "https://i.ibb.co.com/k3LHZjx/srv-Cavity-Protection.png",
                 "description": "Protective coating applied to the chewing surfaces of molars to seal deep grooves and prevent cavities."
             },
             {
                 "serviceName": "Silver Diamine Fluoride",
+                "image": "https://i.ibb.co.com/k3LHZjx/srv-Cavity-Protection.png",
                 "description": "A topical solution that helps prevent and halt the progression of existing cavities by hardening the tooth surface."
             },
             {
                 "serviceName": "Dental Fillings",
+                "image": "https://i.ibb.co.com/k3LHZjx/srv-Cavity-Protection.png",
                 "description": "A restorative procedure to treat cavities by filling the decayed area of the tooth with materials such as composite resin, amalgam, or porcelain."
             },
             {
                 "serviceName": "Resin-Based Composites",
+                "image": "https://i.ibb.co.com/k3LHZjx/srv-Cavity-Protection.png",
                 "description": "Tooth-colored fillings used to restore decayed teeth and blend with the natural tooth color."
             },
             {
                 "serviceName": "Regular Teeth Cleanings",
+                "image": "https://i.ibb.co.com/k3LHZjx/srv-Cavity-Protection.png",
                 "description": "Routine professional cleanings that remove plaque and tartar to prevent cavities and gum disease."
             },
             {
                 "serviceName": "Pit and Fissure Sealants",
+                "image": "https://i.ibb.co.com/k3LHZjx/srv-Cavity-Protection.png",
                 "description": "Similar to dental sealants, applied to the natural grooves of teeth where cavities commonly form."
             },
             {
                 "serviceName": "Xylitol Products",
+                "image": "https://i.ibb.co.com/k3LHZjx/srv-Cavity-Protection.png",
                 "description": "Use of xylitol-based products like gums and mints that help reduce the risk of cavities by neutralizing acids and bacteria in the mouth."
             },
             {
                 "serviceName": "Cariostatic Agents",
+                "image": "https://i.ibb.co.com/k3LHZjx/srv-Cavity-Protection.png",
                 "description": "Application of chemicals or compounds that slow down or inhibit the formation of cavities, such as fluoride varnishes and rinses."
             },
             {
                 "serviceName": "Remineralization Therapy",
+                "image": "https://i.ibb.co.com/k3LHZjx/srv-Cavity-Protection.png",
                 "description": "Use of calcium phosphate and fluoride products to remineralize weakened enamel and prevent early cavity formation."
             },
             {
                 "serviceName": "Saliva Testing for Cavity Risk",
+                "image": "https://i.ibb.co.com/k3LHZjx/srv-Cavity-Protection.png",
                 "description": "Analysis of saliva to determine bacterial levels and other factors that could increase cavity risk, allowing for tailored preventive care."
             },
             {
                 "serviceName": "Dietary Counseling for Cavity Prevention",
+                "image": "https://i.ibb.co.com/k3LHZjx/srv-Cavity-Protection.png",
                 "description": "Advice on reducing sugary and acidic foods to lower the risk of cavities."
             },
             {
                 "serviceName": "Custom Night Guards",
+                "image": "https://i.ibb.co.com/k3LHZjx/srv-Cavity-Protection.png",
                 "description": "Protective devices worn during sleep to prevent tooth grinding (bruxism), which can wear down enamel and make teeth more susceptible to cavities."
             },
             {
                 "serviceName": "Chewing Gum with CPP-ACP",
+                "image": "https://i.ibb.co.com/k3LHZjx/srv-Cavity-Protection.png",
                 "description": "Use of special gum containing casein phosphopeptide-amorphous calcium phosphate to help protect enamel and reduce the risk of cavities."
             },
             {
                 "serviceName": "Anti-Bacterial Mouth Rinses",
+                "image": "https://i.ibb.co.com/k3LHZjx/srv-Cavity-Protection.png",
                 "description": "Use of chlorhexidine or fluoride-based mouthwashes to reduce harmful bacteria that cause cavities."
             },
             {
                 "serviceName": "Oral Hygiene Education",
+                "image": "https://i.ibb.co.com/k3LHZjx/srv-Cavity-Protection.png",
                 "description": "Guidance on proper brushing and flossing techniques to remove plaque and reduce cavity risk."
             }
         ]
@@ -321,94 +394,117 @@
         "services": [
             {
                 "serviceName": "Infant Oral Health Exams",
+                "image": "https://i.ibb.co.com/BqfXxcz/srv-Pediatric-Dental.png",
                 "description": "Early dental checkups, usually recommended by age 1, to assess the health of a baby's gums and teeth."
             },
             {
                 "serviceName": "Dental Cleanings",
+                "image": "https://i.ibb.co.com/BqfXxcz/srv-Pediatric-Dental.png",
                 "description": "Routine teeth cleaning and plaque removal for children to prevent cavities and gum disease."
             },
             {
                 "serviceName": "Fluoride Treatments",
+                "image": "https://i.ibb.co.com/BqfXxcz/srv-Pediatric-Dental.png",
                 "description": "Application of fluoride to strengthen enamel and help prevent cavities in children's teeth."
             },
             {
                 "serviceName": "Dental Sealants",
+                "image": "https://i.ibb.co.com/BqfXxcz/srv-Pediatric-Dental.png",
                 "description": "Protective coatings applied to the chewing surfaces of molars to prevent cavities in kids."
             },
             {
                 "serviceName": "Cavity Fillings",
+                "image": "https://i.ibb.co.com/BqfXxcz/srv-Pediatric-Dental.png",
                 "description": "Treatment of cavities using tooth-colored composite resin or silver amalgam fillings."
             },
             {
                 "serviceName": "Pediatric Dental X-Rays",
+                "image": "https://i.ibb.co.com/BqfXxcz/srv-Pediatric-Dental.png",
                 "description": "Safe, low-radiation imaging to detect cavities, monitor teeth development, and identify any dental issues."
             },
             {
                 "serviceName": "Space Maintainers",
+                "image": "https://i.ibb.co.com/BqfXxcz/srv-Pediatric-Dental.png",
                 "description": "Custom-made devices used to hold space for permanent teeth when baby teeth are lost prematurely."
             },
             {
                 "serviceName": "Pulp Therapy",
+                "image": "https://i.ibb.co.com/BqfXxcz/srv-Pediatric-Dental.png",
                 "description": "Treatment for infected or damaged tooth pulp to save a primary (baby) tooth."
             },
             {
                 "serviceName": "Silver Diamine Fluoride",
+                "image": "https://i.ibb.co.com/BqfXxcz/srv-Pediatric-Dental.png",
                 "description": "A non-invasive treatment to stop the progression of cavities and prevent further decay in young children."
             },
             {
                 "serviceName": "Interceptive Orthodontics",
+                "image": "https://i.ibb.co.com/BqfXxcz/srv-Pediatric-Dental.png",
                 "description": "Early orthodontic evaluation and treatment, such as space maintainers or braces, to guide the proper development of teeth and jaws."
             },
             {
                 "serviceName": "Tooth Extractions",
+                "image": "https://i.ibb.co.com/BqfXxcz/srv-Pediatric-Dental.png",
                 "description": "Removal of decayed, damaged, or overcrowded baby teeth when necessary."
             },
             {
                 "serviceName": "Emergency Dental Care",
+                "image": "https://i.ibb.co.com/BqfXxcz/srv-Pediatric-Dental.png",
                 "description": "Treatment for dental emergencies such as toothaches, broken teeth, or knocked-out teeth."
             },
             {
                 "serviceName": "Mouthguards for Sports",
+                "image": "https://i.ibb.co.com/BqfXxcz/srv-Pediatric-Dental.png",
                 "description": "Custom-made mouthguards to protect children's teeth and gums during sports activities."
             },
             {
                 "serviceName": "Behavior Management",
+                "image": "https://i.ibb.co.com/BqfXxcz/srv-Pediatric-Dental.png",
                 "description": "Specialized techniques to help children, especially those with dental anxiety, feel comfortable and relaxed during dental visits."
             },
             {
                 "serviceName": "Nitrous Oxide",
+                "image": "https://i.ibb.co.com/BqfXxcz/srv-Pediatric-Dental.png",
                 "description": "Safe sedation used to help children stay calm and comfortable during dental procedures."
             },
             {
                 "serviceName": "Early Bite Assessment",
+                "image": "https://i.ibb.co.com/BqfXxcz/srv-Pediatric-Dental.png",
                 "description": "Monitoring and evaluating children's bite development to detect early signs of misalignment or jaw issues."
             },
             {
                 "serviceName": "Thumb Sucking and Pacifier Counseling",
+                "image": "https://i.ibb.co.com/BqfXxcz/srv-Pediatric-Dental.png",
                 "description": "Guidance and tips for parents to help children stop thumb sucking or using pacifiers, which can affect teeth alignment."
             },
             {
                 "serviceName": "Teeth Brushing and Flossing Instructions",
+                "image": "https://i.ibb.co.com/BqfXxcz/srv-Pediatric-Dental.png",
                 "description": "Education on proper oral hygiene habits for kids and advice for parents on how to care for their child's teeth."
             },
             {
                 "serviceName": "Nutrition Counseling for Oral Health",
+                "image": "https://i.ibb.co.com/BqfXxcz/srv-Pediatric-Dental.png",
                 "description": "Advice on healthy eating habits and limiting sugary foods and drinks to prevent cavities in children."
             },
             {
                 "serviceName": "Preventive Resin Restorations",
+                "image": "https://i.ibb.co.com/BqfXxcz/srv-Pediatric-Dental.png",
                 "description": "A minimally invasive treatment applied to vulnerable areas of teeth to prevent cavities, similar to sealants but used for more advanced protection."
             },
             {
                 "serviceName": "Lip and Tongue Tie Assessments and Treatment",
+                "image": "https://i.ibb.co.com/BqfXxcz/srv-Pediatric-Dental.png",
                 "description": "Evaluation and correction of lip or tongue ties in infants and children to improve breastfeeding, speech, and dental health."
             },
             {
                 "serviceName": "Orthodontic Referrals",
+                "image": "https://i.ibb.co.com/BqfXxcz/srv-Pediatric-Dental.png",
                 "description": "Referrals to an orthodontist for braces or other corrective treatment as needed."
             },
             {
                 "serviceName": "Dental Education and Fun Programs",
+                "image": "https://i.ibb.co.com/BqfXxcz/srv-Pediatric-Dental.png",
                 "description": "Fun and educational programs to teach kids the importance of oral health and how to maintain a healthy smile."
             }
         ]
@@ -419,94 +515,117 @@
         "services": [
             {
                 "serviceName": "Tooth Extractions",
+                "image": "https://i.ibb.co.com/jMj0rnq/srv-Oral-Surgery.png",
                 "description": "Removal of damaged, decayed, or impacted teeth, including wisdom teeth extractions."
             },
             {
                 "serviceName": "Wisdom Teeth Removal",
+                "image": "https://i.ibb.co.com/jMj0rnq/srv-Oral-Surgery.png",
                 "description": "Surgical removal of impacted or misaligned wisdom teeth to prevent infection, pain, or damage to adjacent teeth."
             },
             {
                 "serviceName": "Dental Implants",
+                "image": "https://i.ibb.co.com/jMj0rnq/srv-Oral-Surgery.png",
                 "description": "Surgical placement of titanium posts into the jawbone to replace missing teeth, which are later topped with crowns."
             },
             {
                 "serviceName": "Bone Grafting",
+                "image": "https://i.ibb.co.com/jMj0rnq/srv-Oral-Surgery.png",
                 "description": "Procedure to build up or restore bone in the jaw, often required before placing dental implants."
             },
             {
                 "serviceName": "Sinus Lift Surgery",
+                "image": "https://i.ibb.co.com/jMj0rnq/srv-Oral-Surgery.png",
                 "description": "Procedure to add bone to the upper jaw near the molars and premolars by lifting the sinus membrane, often done before dental implants."
             },
             {
                 "serviceName": "Apicoectomy",
+                "image": "https://i.ibb.co.com/jMj0rnq/srv-Oral-Surgery.png",
                 "description": "Surgery to remove the tip of the root of a tooth and surrounding infected tissue, often performed after a failed root canal."
             },
             {
                 "serviceName": "Corrective Jaw Surgery",
+                "image": "https://i.ibb.co.com/jMj0rnq/srv-Oral-Surgery.png",
                 "description": "Surgery to correct jaw misalignment, improve bite function, and treat issues such as sleep apnea or facial trauma."
             },
             {
                 "serviceName": "Frenectomy",
+                "image": "https://i.ibb.co.com/jMj0rnq/srv-Oral-Surgery.png",
                 "description": "Surgical removal of the frenum (the small tissue that connects the lips, tongue, or cheeks to the gums), often to treat tongue-tie or lip-tie."
             },
             {
                 "serviceName": "TMJ (Temporomandibular Joint) Surgery",
+                "image": "https://i.ibb.co.com/jMj0rnq/srv-Oral-Surgery.png",
                 "description": "Surgical procedures to treat severe temporomandibular joint disorders when conservative treatments fail."
             },
             {
                 "serviceName": "Oral Cancer Biopsy and Treatment",
+                "image": "https://i.ibb.co.com/jMj0rnq/srv-Oral-Surgery.png",
                 "description": "Biopsy of suspicious lesions or tissue in the mouth to detect oral cancer, followed by surgical removal of cancerous growths if necessary."
             },
             {
                 "serviceName": "Cyst and Tumor Removal",
+                "image": "https://i.ibb.co.com/jMj0rnq/srv-Oral-Surgery.png",
                 "description": "Surgical removal of cysts or benign tumors in the mouth, jaw, or face."
             },
             {
                 "serviceName": "Facial Trauma Reconstruction",
+                "image": "https://i.ibb.co.com/jMj0rnq/srv-Oral-Surgery.png",
                 "description": "Treatment for facial injuries, such as broken jaws or fractured facial bones, to restore function and appearance."
             },
             {
                 "serviceName": "Dental Abscess Drainage",
+                "image": "https://i.ibb.co.com/jMj0rnq/srv-Oral-Surgery.png",
                 "description": "Surgical drainage of a dental abscess, which is a collection of pus caused by a bacterial infection in the tooth or gum."
             },
             {
                 "serviceName": "Ridge Augmentation",
+                "image": "https://i.ibb.co.com/jMj0rnq/srv-Oral-Surgery.png",
                 "description": "Procedure to rebuild the natural contour of the gums and jawbone after tooth loss or bone resorption."
             },
             {
                 "serviceName": "Soft Tissue Grafts",
+                "image": "https://i.ibb.co.com/jMj0rnq/srv-Oral-Surgery.png",
                 "description": "Grafting of soft tissue to treat gum recession, improve gum health, or enhance the appearance of the gums."
             },
             {
                 "serviceName": "Impacted Tooth Exposure",
+                "image": "https://i.ibb.co.com/jMj0rnq/srv-Oral-Surgery.png",
                 "description": "Surgical exposure of impacted teeth (commonly canines) to aid in orthodontic treatment for proper alignment."
             },
             {
                 "serviceName": "Pre-Prosthetic Surgery",
+                "image": "https://i.ibb.co.com/jMj0rnq/srv-Oral-Surgery.png",
                 "description": "Surgical preparation of the mouth for dentures, including reshaping the jaw or removing excess tissue."
             },
             {
                 "serviceName": "Alveoplasty",
+                "image": "https://i.ibb.co.com/jMj0rnq/srv-Oral-Surgery.png",
                 "description": "Surgical smoothing or reshaping of the jawbone after tooth extraction, often in preparation for dentures or implants."
             },
             {
                 "serviceName": "Cleft Lip and Palate Repair",
+                "image": "https://i.ibb.co.com/jMj0rnq/srv-Oral-Surgery.png",
                 "description": "Surgical procedures to correct cleft lip or palate in children, improving function and appearance."
             },
             {
                 "serviceName": "Sleep Apnea Surgery",
+                "image": "https://i.ibb.co.com/jMj0rnq/srv-Oral-Surgery.png",
                 "description": "Surgical treatment for obstructive sleep apnea, which may involve removing excess tissue in the throat or repositioning the jaw."
             },
             {
                 "serviceName": "Facial Cosmetic Surgery",
+                "image": "https://i.ibb.co.com/jMj0rnq/srv-Oral-Surgery.png",
                 "description": "Procedures to enhance the appearance of the face, such as chin augmentation or reconstructive surgery after trauma."
             },
             {
                 "serviceName": "Gingivectomy or Gingivoplasty",
+                "image": "https://i.ibb.co.com/jMj0rnq/srv-Oral-Surgery.png",
                 "description": "Removal or reshaping of gum tissue to treat gum disease or improve aesthetics."
             },
             {
                 "serviceName": "Lip Repositioning Surgery",
+                "image": "https://i.ibb.co.com/jMj0rnq/srv-Oral-Surgery.png",
                 "description": "A cosmetic procedure to correct a 'gummy smile' by repositioning the upper lip to show less gum when smiling."
             }
         ]
