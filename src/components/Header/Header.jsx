@@ -97,7 +97,7 @@ const Header = () => {
             <DisclosurePanel className="smallDeviceNavLinks md:hidden">
                 <div className="space-y-1 px-2 pb-3 pt-2">
                     {navigation.map((item) => (
-                        <Link key={item.name} aria-current={item.current ? 'page' : undefined} className={classNames(
+                        <Link to={item.href} key={item.name} aria-current={item.current ? 'page' : undefined} className={classNames(
                                 item.current ? 'text-white' : 'text-gray-300 hover:bg-[#143D3A] hover:text-white',
                                 'block rounded-md px-3 py-2 text-base font-medium',
                         )}>

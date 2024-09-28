@@ -4,7 +4,7 @@ import Main from './layout/Main'
 import Home from './pages/Home/Home/Home'
 import SignUp from './components/SignUp/SignUp'
 import SignIn from './components/SignIn/SignIn'
-import Appointment from './pages/Appointment/Appointment'
+import Appointment from './pages/Appointment/Appointment/Appointment'
 
 function App({ children }) {
   const routes = createBrowserRouter([
