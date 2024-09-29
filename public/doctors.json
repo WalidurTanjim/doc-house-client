@@ -1,62 +1,376 @@
 [
     {
-        "_id": "asdf-1"
+      "_id": "66f97651f9b4dcecc2170869",
+      "image": "https://i.ibb.co.com/0qdMJZ9/doc-1.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
     },
     {
-        "_id": "asdf-2"
+      "_id": "66f97651bceac3c84fb93d74",
+      "image": "https://i.ibb.co.com/6vXB8Wv/doc-2.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Palatal Expanders", "Space Maintainers", "Forsus or Herbst Appliances", "Elastics (Rubber Bands)", "Headgear", "Temporary Anchorage Devices (TADs)"]
     },
     {
-        "_id": "asdf-3"
+      "_id": "66f97651063aae397b7c2b44",
+      "image": "https://i.ibb.co.com/WV7Th1D/doc-3.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Jaw Surgery (Orthognathic Surgery)", "Clear Retainers", "Bite Correction Appliances", "Orthodontic Spacers", "Orthodontic Wax", "Aligner Chewies"]
     },
     {
-        "_id": "asdf-4"
+      "_id": "66f976510f1d0d5ad5d23f6b",
+      "image": "https://i.ibb.co.com/BPvHs5J/doc-4.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Dental Splints", "Accelerated Orthodontics", "Teeth Whitening", "Dental Veneers", "Dental Bonding", "Dental Crowns"]
     },
     {
-        "_id": "asdf-5"
+      "_id": "66f97651ecd96c7965777869",
+      "image": "https://i.ibb.co.com/S0Svmpx/doc-5.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Inlays and Onlays", "Clear Aligners", "Orthodontics", "Gum Contouring", "Dental Implants", "Smile Makeover"]
     },
     {
-        "_id": "asdf-6"
+      "_id": "66f97651d23515dc4b5bd7a8",
+      "image": "https://i.ibb.co.com/MV0Zfq4/doc-6.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
     },
     {
-        "_id": "asdf-7"
+      "_id": "66f9765178f7661dd2cb2654",
+      "image": "https://i.ibb.co.com/GPnZPvH/doc-7.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
     },
     {
-        "_id": "asdf-8"
+      "_id": "66f9765191de2de19c1a82ba",
+      "image": "https://i.ibb.co.com/RBq43qv/doc-8.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
     },
     {
-        "_id": "asdf-9"
+      "_id": "66f9765133c982e82ce6a4a3",
+      "image": "https://i.ibb.co.com/M6dryRv/doc-9.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
     },
     {
-        "_id": "asdf-10"
+      "_id": "66f9765171241b0c4dd2d9f7",
+      "image": "https://i.ibb.co.com/Z2X1NNm/doc-10.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
     },
     {
-        "_id": "asdf-11"
+      "_id": "66f97651d9821b931bdff79d",
+      "image": "https://i.ibb.co.com/pzrKCkf/doc-11.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
     },
     {
-        "_id": "asdf-12"
+      "_id": "66f976513ffd40a9094271f1",
+      "image": "https://i.ibb.co.com/tMT7Nf8/doc-12.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
     },
     {
-        "_id": "asdf-13"
+      "_id": "66f97651dfd5d58543eab70e",
+      "image": "https://i.ibb.co.com/L9xrs89/doc-13.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
     },
     {
-        "_id": "asdf-14"
+      "_id": "66f97651881ac831e11dcc3f",
+      "image": "https://i.ibb.co.com/h8WjRv6/doc-14.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
     },
     {
-        "_id": "asdf-15"
+      "_id": "66f976515727f9074729e0a8",
+      "image": "https://i.ibb.co.com/kQRmKDs/doc-15.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
     },
     {
-        "_id": "asdf-16"
+      "_id": "66f97651d201840879f3bffa",
+      "image": "https://i.ibb.co.com/Tq8Q1t2/doc-16.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
     },
     {
-        "_id": "asdf-17"
+      "_id": "66f9765148e9eaab01664eda",
+      "image": "https://i.ibb.co.com/10tyTRD/doc-17.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
     },
     {
-        "_id": "asdf-18"
+      "_id": "66f97651848d1268beaff65b",
+      "image": "https://i.ibb.co.com/ZL5mccB/doc-18.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
     },
     {
-        "_id": "asdf-19"
+      "_id": "66f97651a3aef715ac662efb",
+      "image": "https://i.ibb.co.com/ZYW7njC/doc-19.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
     },
     {
-        "_id": "asdf-20"
+      "_id": "66f976512c907b17eed80831",
+      "image": "https://i.ibb.co.com/2cLJ1zh/doc-20.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+    },
+    {
+      "_id": "66f97651d641827a313ecbbf",
+      "image": "https://i.ibb.co.com/44SQgp4/doc-21.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+    },
+    {
+      "_id": "66f97651a54163cbd2183a30",
+      "image": "https://i.ibb.co.com/hdpGqR9/doc-22.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+    },
+    {
+      "_id": "66f976516341b43c995b3413",
+      "image": "https://i.ibb.co.com/9Wtg5Xv/doc-23.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+    },
+    {
+      "_id": "66f97651cdf9b2db82f03f3d",
+      "image": "https://i.ibb.co.com/Y2yHNZt/doc-24.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+    },
+    {
+      "_id": "66f9765198d4f735f8a71ee0",
+      "image": "https://i.ibb.co.com/JmgxV58/doc-25.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+    },
+    {
+      "_id": "66f97651537f2df230cb8c2a",
+      "image": "https://i.ibb.co.com/cTSj7Nx/doc-26.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+    },
+    {
+      "_id": "66f9765173d143bb8cc641a7",
+      "image": "https://i.ibb.co.com/0qkZ7Jz/doc-27.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+    },
+    {
+      "_id": "66f97651efb0a5af32e0e3b6",
+      "image": "https://i.ibb.co.com/cT8K4H9/doc-28.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+    },
+    {
+      "_id": "66f97651600e39bc9899cfac",
+      "image": "https://i.ibb.co.com/gD8z2gh/doc-29.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+    },
+    {
+      "_id": "66f976510ba11bbaebf1a0ed",
+      "image": "https://i.ibb.co.com/Q8Ssw2D/doc-30.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+    },
+    {
+      "_id": "66f9765107e88dd132f400b4",
+      "image": "https://i.ibb.co.com/NyK67jF/doc-31.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+    },
+    {
+      "_id": "66f97651eee1f463fb48d00a",
+      "image": "https://i.ibb.co.com/j3cc9VM/doc-32.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+    },
+    {
+      "_id": "66f976512816764f02900934",
+      "image": "https://i.ibb.co.com/r0yp9K4/doc-33.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+    },
+    {
+      "_id": "66f976512675c15d6921e659",
+      "image": "https://i.ibb.co.com/rQxrmCh/doc-34.png",
+      "name": "Dr. Berry Johnson",
+      "degree": "MBBS, MD",
+      "ratings": "4.5",
+      "reviewers": 35,
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
     }
 ]

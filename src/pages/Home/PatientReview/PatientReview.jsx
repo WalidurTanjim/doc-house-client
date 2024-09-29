@@ -32,9 +32,9 @@ const PatientReview = () => {
                 1024: { slidesPerView: 2 }
             }} spaceBetween={30} loop={true} pagination={{ clickable: true }} navigation={true} modules={[Pagination, Navigation]} className="mySwiper" >
                 {
-                    reviews.map((review, idx) => {
+                    reviews.map(review => {
                         return (
-                            <SwiperSlide key={idx} className="border p-5 sm:p-10 rounded-md">
+                            <SwiperSlide key={review._id} className="border p-5 sm:p-10 rounded-md">
                                 <div className='relative flex items-center mb-3'>
                                     <img src={quote} alt="Quote Icon" className='absolute top-0 right-0 w-10 h-10' />
 
