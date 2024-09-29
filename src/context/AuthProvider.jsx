@@ -5,11 +5,13 @@ export const AuthContext = createContext(null);
 const AuthProvider = ({ children }) => {
     const [ user, setUser ] = useState([]);
     const [ loading, setLoading ] = useState(false);
-    const [ service, setService ] = useState('All');
+    const [ service, setService ] = useState('All'); // all services of appointment page
+    const [open, setOpen] = useState(false); // show or hide modal after click "Book appointment button" of slot
 
     const userInfo = {
         user, loading,
-        service, setService
+        service, setService,
+        open, setOpen
     }
 
     return (

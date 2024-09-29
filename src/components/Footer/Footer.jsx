@@ -14,7 +14,7 @@ const Footer = () => {
 
                             <p className='my-5'>Medical treatment is essential for diagnosing, managing, and curing illnesses, ensuring overall health and well-being. It helps prevent complications and improves the quality of life.</p>
 
-                            <button className='py-2 px-5 rounded-md text-[#F7A582] hover:text-white active:text-[#F7A582] border border-[#F7A582] hover:bg-[#F7A582] active:bg-white text-sm'>Appointment</button>
+                            <Link to="/appointment"><button className='py-2 px-5 rounded-md text-[#F7A582] hover:text-white active:text-[#F7A582] border border-[#F7A582] hover:bg-[#F7A582] active:bg-white text-sm'>Appointment</button></Link>
                         </div>
 
                         <nav className='md:col-span-1 lg:col-span-2' aria-labelledby="footer-product-5-logo">
