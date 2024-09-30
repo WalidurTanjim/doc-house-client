@@ -17,7 +17,7 @@ const ExpertDoctors = () => {
             {/* ourDoctors div starts */}
             <div className='doctors grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
                 {
-                    doctors.slice(0, 4).map(doctor => {
+                    doctors?.slice(0, 4).map(doctor => {
                         const { _id, image, name, degree, ratings, location, price, available } = doctor;
 
                         return (

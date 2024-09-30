@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import halfPill from '../../../assets/images/half_pill.png';
-import leanPill from '../../../assets/images/lean_pill.png';
 import appointmentChair from '../../../assets/images/appointment_chair.png';
 import useAuth from '../../../hooks/useAuth';
 import './Appointment.css';

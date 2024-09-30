@@ -1,11 +1,13 @@
 import { useQuery } from '@tanstack/react-query';
-import axios from 'axios';
+import useAxiosPublic from './useAxiosPublic';
 
 const useDoctors = () => {
+    const axiosPublic = useAxiosPublic();
+
     const { data: doctors = [], refetch } = useQuery({
         queryKey: ['doctors'],
         queryFn: async() => {
-            const res = await axios.get('doctors.json');
+            const res = await axiosPublic.get('/doctors');
             return res.data;
         }
     })
