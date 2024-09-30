@@ -19,6 +19,7 @@ const ViewDoctorProfile = () => {
 
             {/* profileInfoContainer div starts */}
             <div className="profileInfoContainer container mx-auto px-6 my-16">
+                {/* doctorPersonalInfo div starts */}
                 <div className="personalInfo p-5 rounded-md grid gap-5 grid-cols-1 md:grid-cols-3 border">
                     <div className='col-span-1 w-full h-[200px]'>
                         <img src={image} alt="" className='w-full h-full rounded-md bg-gray-200' />
@@ -28,6 +29,7 @@ const ViewDoctorProfile = () => {
                         <h1 className="text-2xl font-semibold text-slate-900">{name}</h1>
                         <p className='text-gray-500 my-1'>{degree}</p>
                         <p className='text-xs text-gray-500 flex items-center'><img src={mapPin} alt="" className='w-4 h-4 me-1' /> {location}</p>
+
                         <div className='flex gap-3 items-center mt-2'>
                             {
                                 service.map(s => {
@@ -38,6 +40,11 @@ const ViewDoctorProfile = () => {
                             }
                         </div>
                     </div>
+                </div>
+
+                {/* doctorDetails div starts */}
+                <div className="doctorDetails p-5 mt-10 rounded-md border">
+                    <h1>Doctor Details</h1>
                 </div>
             </div>
         </section>
