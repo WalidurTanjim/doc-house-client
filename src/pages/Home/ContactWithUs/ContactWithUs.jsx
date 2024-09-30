@@ -7,7 +7,7 @@ const ContactWithUs = () => {
         <section className='contactWithUs container mx-auto px-6 my-16'>
             <div className='bg-[#07332F] rounded-lg px-6 py-10 text-white grid gap-5 grid-cols-1 md:grid-cols-2'>
                 {/* contentContainer div starts */}
-                <div className="contentContainer flex items-center">
+                <div className="contentContainer flex items-center mb-5 md:mb-0">
                     <div className='contentContainerInner'>
                         <h1 className='text-lg md:text-2xl font-medium'>Contact With Us</h1>
                         <p className='my-5 text-sm'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi.</p>
