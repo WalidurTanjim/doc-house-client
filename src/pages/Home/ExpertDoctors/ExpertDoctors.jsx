@@ -51,7 +51,7 @@ const ExpertDoctors = () => {
                                     </div>
                                 </div>
 
-                                <Link><button className='w-full py-2 rounded-md text-[#F7A582] hover:text-white active:text-[#F7A582] border border-[#F7A582] hover:bg-[#F7A582] active:bg-white text-sm'>View Profile</button></Link>
+                                <Link to={`/doctor/${_id}/profile`}><button className='w-full py-2 rounded-md text-[#F7A582] hover:text-white active:text-[#F7A582] border border-[#F7A582] hover:bg-[#F7A582] active:bg-white text-sm'>View Profile</button></Link>
                             </div>
                         )
                     })
