@@ -5,10 +5,15 @@ import halfPill from '../../assets/images/half_pill.png';
 import leanPill from '../../assets/images/lean_pill.png';
 import verticalPill from '../../assets/images/vertical_pill.png';
 import { Link } from 'react-router-dom';
+import { useForm } from "react-hook-form";
 
 const SignIn = () => {
     const [ showPassword, setShowPassword ] = useState(false);
     const [ errMsg, setErrMsg ] = useState('');
+
+    const { register, handleSubmit, watch, formState: { errors } } = useForm()
+    
+    const onSubmit = (data) => console.log(data)
 
     return (
         <div className='w-full min-h-screen grid grid-cols-1 md:grid-cols-2'>
@@ -25,13 +30,13 @@ const SignIn = () => {
                 <div className='border rounded-md p-5 w-full lg:w-[550px]'>
                     <h1 className='text-2xl lg:font-4xl font-medium text-slate-900 text-center'>Sign In to Doc House</h1>
 
-                    <form className='my-5'>
+                    <form className='my-5' onSubmit={handleSubmit(onSubmit)}>
                         {/* email div starts */}
                         <div className='email mb-2'>
                             <label htmlFor="email" className="block text-sm font-medium leading-6 text-gray-900">Email Address</label>
 
                             <div className="mt-1">
-                                <input id="email" name="email" type="email" autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm" />
+                                <input id="email" name="email" type="email" autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm" {...register("email", { required: true })} />
                             </div>
                         </div>
 
@@ -40,7 +45,7 @@ const SignIn = () => {
                             <label htmlFor="password" className="block text-sm font-medium leading-6 text-gray-900">Password</label>
 
                             <div className="mt-1">
-                                <input id="password" name="password" type={showPassword ? 'text' : 'password'} autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm" />
+                                <input id="password" name="password" type={showPassword ? 'text' : 'password'} autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm" {...register("password", { required: true })} />
                             </div>
                         </div>
 
