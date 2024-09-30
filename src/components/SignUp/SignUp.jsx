@@ -6,14 +6,90 @@ import leanPill from '../../assets/images/lean_pill.png';
 import verticalPill from '../../assets/images/vertical_pill.png';
 import { Link } from 'react-router-dom';
 import { useForm } from "react-hook-form";
+import useAuth from '../../hooks/useAuth';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const SignUp = () => {
     const [ showPassword, setShowPassword ] = useState(false);
+    const [ createPassErrMsg, setCreatePassErrMsg ] = useState('');
+    const [ repeatPassErrMsg, setRepeatPassErrMsg ] = useState('');
     const [ errMsg, setErrMsg ] = useState('');
+    const { createUser, updateUserProfile, emailVerification } = useAuth();
+    const passRegEx = /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{6,}$/;
 
-    const { register, handleSubmit, watch, formState: { errors } } = useForm()
+    const { register, handleSubmit, reset, watch, formState: { errors } } = useForm()
     
-    const onSubmit = (data) => console.log(data) 
+    const onSubmit = (data) => {
+        setCreatePassErrMsg('');
+        setRepeatPassErrMsg('');
+        setErrMsg('');
+
+        // password validation
+        if(!passRegEx.test(data.createPassword)){
+            return setCreatePassErrMsg('Password must be uppercase, lowercase, digits, special char & at least 6 chars');
+        }
+        if(data.repeatPassword !== data.createPassword){
+            return setRepeatPassErrMsg('Both are not equal');
+        }
+
+        // createUser
+        createUser(data.email, data.repeatPassword)
+        .then(result => {
+            const user = result.user;
+            updateUserProfileHandler(user, data.fullName);
+            emailVerificationHandler(user);
+            toast.success('Account created successfully', {
+                position: "top-center",
+                autoClose: 2500,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: false,
+                draggable: true,
+                progress: undefined,
+                theme: "light"
+            });
+            reset();
+            console.log("Sign up user:", user);
+        })
+        .catch(err => {
+            console.error(err);
+            setErrMsg(err.message);
+        })
+    };
+
+    // updateUserProfileHandler
+    const updateUserProfileHandler = (user, username) => {
+        updateUserProfile(user, username)
+        .then(() => {
+            console.log('Profile updated');
+        })
+        .catch(err => {
+            console.error(err);
+            setErrMsg(err.message);
+        })
+    };
+
+    // emailVerificationHandler
+    const emailVerificationHandler = user => {
+        emailVerification(user)
+        .then(() => {
+            toast.info('Verification mail send', {
+                position: "top-center",
+                autoClose: 2500,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: false,
+                draggable: true,
+                progress: undefined,
+                theme: "light"
+            });
+        })
+        .catch(err => {
+            console.error(err);
+            setErrMsg(err.message);
+        })
+    };
 
 
     return (
@@ -57,6 +133,7 @@ const SignUp = () => {
                             <div className="mt-1">
                                 <input id="createPassword" name="createPassword" type={showPassword ? 'text' : 'password'} autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm" {...register("createPassword", { required: true })} />
                             </div>
+                            {createPassErrMsg ? <p className='text-xs mt-1 font-medium text-red-600'>{createPassErrMsg}</p> : undefined}
                         </div>
 
                         {/* repeatPassword div starts */}
@@ -66,6 +143,7 @@ const SignUp = () => {
                             <div className="mt-1">
                                 <input id="repeatPassword" name="repeatPassword" type={showPassword ? 'text' : 'password'} autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm" {...register("repeatPassword", { required: true })} />
                             </div>
+                            {repeatPassErrMsg ? <p className='text-xs mt-1 font-medium text-red-600'>{repeatPassErrMsg}</p> : undefined}
                         </div>
 
                         {/* showPassword div starts */}

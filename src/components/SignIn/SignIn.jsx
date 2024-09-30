@@ -6,14 +6,18 @@ import leanPill from '../../assets/images/lean_pill.png';
 import verticalPill from '../../assets/images/vertical_pill.png';
 import { Link } from 'react-router-dom';
 import { useForm } from "react-hook-form";
+import useAuth from '../../hooks/useAuth';
 
 const SignIn = () => {
     const [ showPassword, setShowPassword ] = useState(false);
     const [ errMsg, setErrMsg ] = useState('');
+    const { signInUser, resetPassword } = useAuth();
 
     const { register, handleSubmit, watch, formState: { errors } } = useForm()
     
-    const onSubmit = (data) => console.log(data)
+    const onSubmit = (data) => {
+        setErrMsg('');
+    }
 
     return (
         <div className='w-full min-h-screen grid grid-cols-1 md:grid-cols-2'>
