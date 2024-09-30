@@ -12,6 +12,8 @@
   "dependencies": {
     "@headlessui/react": "^0.0.0-insiders.5ca68a9",
     "@heroicons/react": "^2.1.5",
+    "@tanstack/react-query": "^5.56.2",
+    "axios": "^1.7.7",
     "firebase": "^10.13.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

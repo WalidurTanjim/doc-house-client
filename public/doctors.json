@@ -8,7 +8,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f97651bceac3c84fb93d74",
@@ -19,7 +62,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Palatal Expanders", "Space Maintainers", "Forsus or Herbst Appliances", "Elastics (Rubber Bands)", "Headgear", "Temporary Anchorage Devices (TADs)"]
+      "service": ["Palatal Expanders", "Space Maintainers", "Forsus or Herbst Appliances"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f97651063aae397b7c2b44",
@@ -30,7 +116,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Jaw Surgery (Orthognathic Surgery)", "Clear Retainers", "Bite Correction Appliances", "Orthodontic Spacers", "Orthodontic Wax", "Aligner Chewies"]
+      "service": ["Jaw Surgery (Orthognathic Surgery)", "Clear Retainers", "Bite Correction Appliances"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f976510f1d0d5ad5d23f6b",
@@ -41,7 +170,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Dental Splints", "Accelerated Orthodontics", "Teeth Whitening", "Dental Veneers", "Dental Bonding", "Dental Crowns"]
+      "service": ["Dental Splints", "Accelerated Orthodontics", "Teeth Whitening"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f97651ecd96c7965777869",
@@ -52,7 +224,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Inlays and Onlays", "Clear Aligners", "Orthodontics", "Gum Contouring", "Dental Implants", "Smile Makeover"]
+      "service": ["Inlays and Onlays", "Clear Aligners", "Orthodontics"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f97651d23515dc4b5bd7a8",
@@ -63,7 +278,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f9765178f7661dd2cb2654",
@@ -74,7 +332,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f9765191de2de19c1a82ba",
@@ -85,7 +386,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f9765133c982e82ce6a4a3",
@@ -96,7 +440,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f9765171241b0c4dd2d9f7",
@@ -107,7 +494,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f97651d9821b931bdff79d",
@@ -118,7 +548,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f976513ffd40a9094271f1",
@@ -129,7 +602,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f97651dfd5d58543eab70e",
@@ -140,7 +656,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f97651881ac831e11dcc3f",
@@ -151,7 +710,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f976515727f9074729e0a8",
@@ -162,7 +764,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f97651d201840879f3bffa",
@@ -173,7 +818,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f9765148e9eaab01664eda",
@@ -184,7 +872,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f97651848d1268beaff65b",
@@ -195,7 +926,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f97651a3aef715ac662efb",
@@ -206,7 +980,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f976512c907b17eed80831",
@@ -217,7 +1034,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f97651d641827a313ecbbf",
@@ -228,7 +1088,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f97651a54163cbd2183a30",
@@ -239,7 +1142,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f976516341b43c995b3413",
@@ -250,7 +1196,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f97651cdf9b2db82f03f3d",
@@ -261,7 +1250,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f9765198d4f735f8a71ee0",
@@ -272,7 +1304,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f97651537f2df230cb8c2a",
@@ -283,7 +1358,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f9765173d143bb8cc641a7",
@@ -294,7 +1412,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f97651efb0a5af32e0e3b6",
@@ -305,7 +1466,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f97651600e39bc9899cfac",
@@ -316,7 +1520,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f976510ba11bbaebf1a0ed",
@@ -327,7 +1574,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f9765107e88dd132f400b4",
@@ -338,7 +1628,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f97651eee1f463fb48d00a",
@@ -349,7 +1682,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f976512816764f02900934",
@@ -360,7 +1736,50 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     },
     {
       "_id": "66f976512675c15d6921e659",
@@ -371,6 +1790,49 @@
       "reviewers": 35,
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "about": "A doctor with both an MBBS and MD degree has completed extensive medical education and training. The MBBS is the basic undergraduate degree required to become a doctor, focusing on general medical knowledge across subjects like anatomy, physiology, and clinical practice. After earning the MBBS, doctors undergo internships to gain practical experience. An MD is a postgraduate degree that allows a doctor to specialize in a specific area of medicine, such as internal medicine or pediatrics. This program involves 2-3 years of advanced clinical training and research. With both degrees, the doctor is well-equipped to handle general medical cases while offering specialized care in their chosen field.",
-      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces", "Clear Aligners", "Self-Ligating Braces", "Retainers"]
+      "service": ["Traditional Metal Braces", "Ceramic Braces", "Lingual Braces"],
+      "education": [
+        {
+          "university": "American Dental Medical University",
+          "degree": "BDS",
+          "session": "1998 - 2003"
+        }, 
+        {
+          "university": "American Dental Medical University",
+          "degree": "MDS",
+          "session": "2003 - 2005"
+        }
+      ], 
+      "workExperience": [
+        {
+          "experience": "Glowing Smiles Family Dental Clinic",
+          "session": "2010 - Present"
+        },
+        {
+          "experience": "Comfort Care Dental Clinic",
+          "session": "2007 - 2010"
+        }, 
+        {
+          "experience": "Dream Smile Dental Practice",
+          "session": "2005 - 2007"
+        }
+      ],
+      "awards": [
+        {
+          "year": "July 2019",
+          "awardName": "Humanitarian Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "March 2011",
+          "awardName": "Certificate for International Volunteer Service",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        },
+        {
+          "year": "May 2008",
+          "awardName": "The Dental Professional fo The Year Award",
+          "aboutAward": "The Humanity Award honors individuals or organizations making significant contributions to humanitarian causes, promoting kindness, social justice, and human welfare."
+        }
+      ]
     }
 ]
