@@ -13,10 +13,21 @@ const SignIn = () => {
     const [ errMsg, setErrMsg ] = useState('');
     const { signInUser, resetPassword } = useAuth();
 
-    const { register, handleSubmit, watch, formState: { errors } } = useForm()
-    
+    const { register, handleSubmit, reset, watch, formState: { errors } } = useForm()
     const onSubmit = (data) => {
         setErrMsg('');
+
+        // signInUser
+        signInUser(data.email, data.password)
+        .then(result => {
+            const user = result.user;
+            reset();
+            console.log('Sign in user:', user);
+        })
+        .catch(err => {
+            console.error(err);
+            setErrMsg(err.message);
+        })
     }
 
     return (

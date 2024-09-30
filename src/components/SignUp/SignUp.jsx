@@ -19,7 +19,6 @@ const SignUp = () => {
     const passRegEx = /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{6,}$/;
 
     const { register, handleSubmit, reset, watch, formState: { errors } } = useForm()
-    
     const onSubmit = (data) => {
         setCreatePassErrMsg('');
         setRepeatPassErrMsg('');
