@@ -9,6 +9,7 @@ import { useForm } from "react-hook-form";
 import useAuth from '../../hooks/useAuth';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import SocialSignIn from '../SocialSignIn/SocialSignIn';
 
 const SignUp = () => {
     const [ showPassword, setShowPassword ] = useState(false);
@@ -155,6 +156,8 @@ const SignUp = () => {
 
                         <button className='py-2 w-full rounded-md text-center font-medium text-white border border-[#F7A582] bg-[#F7A582] hover:bg-[#f7824f] active:bg-[#F7A582] shadow-sm text-sm mt-2'>Sign Up</button>
                     </form>
+
+                    <SocialSignIn text="Sign Up via"></SocialSignIn>
 
                     <div className="text-center text-xs text-gray-500">
                         <h1>Already Have An Account? <Link to="/signIn" className='text-[#F7A582] hover:text-[#f7824f] active:text-[#F7A582]'>Sign In</Link></h1>

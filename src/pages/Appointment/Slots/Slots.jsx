@@ -5,6 +5,7 @@ import SectionTitle from '../../../components/SectionTitle/SectionTitle';
 import { Dialog, DialogBackdrop, DialogPanel, DialogTitle } from '@headlessui/react'
 import { ExclamationTriangleIcon } from '@heroicons/react/24/outline'
 import useAuth from '../../../hooks/useAuth';
+import { useNavigate } from 'react-router-dom';
 
 
 // ModalComponent starts
@@ -63,7 +64,8 @@ const ModalComponent = () => {
 const Slots = ({ service }) => {
     const [ slots, setSlots ] = useState([]);
     const selectedService = slots.find(slot => slot.name === service);
-    const { open, setOpen } = useAuth();
+    const { user, open, setOpen } = useAuth();
+    const navigate = useNavigate();
 
 
     useEffect(() => {
