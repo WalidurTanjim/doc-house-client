@@ -3,7 +3,8 @@ import vectorDot from "../../../assets/images/vector_dot.png";
 
 const ProfileOverview = ({ doctorInfo }) => {
     const { about, education, workExperience, service, awards } = doctorInfo;
-    console.log(doctorInfo)
+    // console.log(doctorInfo)
+
     return (
         <div className='my-5'>
             {/* aboutMe div starts */}

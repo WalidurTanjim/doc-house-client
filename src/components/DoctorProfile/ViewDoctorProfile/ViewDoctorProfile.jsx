@@ -6,6 +6,9 @@ import mapPin from '../../../assets/images/doctor_location.png';
 import ProfileOverview from '../ProfileOverview/ProfileOverview';
 import './ViewDoctorProfile.css';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import ProfileReviews from '../ProfileReviews/ProfileReviews';
+import ProfileLocation from '../ProfileLocation/ProfileLocation';
+import ProfileBusinessHours from '../ProfileBusinessHours/ProfileBusinessHours';
 // import 'react-tabs/style/react-tabs.css';
 
 const tabs = [
@@ -66,11 +69,11 @@ const ViewDoctorProfile = () => {
 
                         <TabPanel><ProfileOverview doctorInfo={selectedDoctor}></ProfileOverview></TabPanel>
 
-                        <TabPanel><ProfileOverview doctorInfo={selectedDoctor}></ProfileOverview></TabPanel>
+                        <TabPanel><ProfileLocation></ProfileLocation></TabPanel>
 
-                        <TabPanel><ProfileOverview doctorInfo={selectedDoctor}></ProfileOverview></TabPanel>
+                        <TabPanel><ProfileReviews></ProfileReviews></TabPanel>
 
-                        <TabPanel><ProfileOverview doctorInfo={selectedDoctor}></ProfileOverview></TabPanel>
+                        <TabPanel><ProfileBusinessHours></ProfileBusinessHours></TabPanel>
                     </Tabs>
                     {/* <ProfileOverview></ProfileOverview> */}
                 </div>
