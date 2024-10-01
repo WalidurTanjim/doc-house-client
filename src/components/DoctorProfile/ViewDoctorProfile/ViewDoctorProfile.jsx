@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PageHeading from '../../PageHeading/PageHeading';
 import { useParams } from 'react-router-dom';
 import useDoctors from '../../../hooks/useDoctors';
@@ -19,6 +19,8 @@ const tabs = [
 ];
 
 const ViewDoctorProfile = () => {
+    const [ selectedTab, setSelectedTab ] = useState(0);
+
     const { id } = useParams();
     const [ doctors ] = useDoctors();
     const selectedDoctor = doctors.find(doctor => doctor._id === id);
@@ -62,7 +64,7 @@ const ViewDoctorProfile = () => {
                         <TabList className="tabList flex items-center ">
                             {
                                 tabs.map((tab, idx) => {
-                                    return <Tab key={idx} className={`font-medium rounded-t-md py-2 px-5 text-slate-800 hover:text-white hover:bg-[#f7824f] active:bg-[#F7A582] cursor-default transition-all ease-in-out duration-200`}>{tab.name}</Tab>
+                                    return <Tab key={idx} className={`${selectedTab === idx ? 'active' : ''} font-medium rounded-t-md py-2 px-5 text-slate-800 active:bg-[#F7A582] cursor-pointer transition-all ease-in-out duration-200`} onClick={() => setSelectedTab(idx)}>{tab.name}</Tab>
                                 })
                             }
                         </TabList>
@@ -75,7 +77,6 @@ const ViewDoctorProfile = () => {
 
                         <TabPanel><ProfileBusinessHours></ProfileBusinessHours></TabPanel>
                     </Tabs>
-                    {/* <ProfileOverview></ProfileOverview> */}
                 </div>
             </div>
         </section>
