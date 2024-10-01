@@ -64,10 +64,16 @@ const SignIn = () => {
                             </div>
                         </div>
 
-                        {/* showPassword div starts */}
-                        <div className="showPassword mt-4 mb-2 flex items-center text-xs">
-                            <input type="checkbox" name="showPassword" id="showPassword" onClick={() => setShowPassword(!showPassword)} />
-                            <p className='ms-2'>Show Password</p>
+                        {/* showPassword & forgotPassword div starts */}
+                        <div className='flex items-center justify-between'>
+                            {/* showPassword div */}
+                            <div className="showPassword mt-4 mb-2 flex items-center text-xs cursor-default">
+                                <input type="checkbox" name="showPassword" id="showPassword" onClick={() => setShowPassword(!showPassword)} />
+                                <p className='ms-2'>Show Password</p>
+                            </div>
+
+                            {/* forgotPassword */}
+                            <h1 className='text-xs cursor-default text-[#f7824f] hover:underline active:no-underline'>Forgot Password</h1>
                         </div>
 
                         { errMsg ? <p className='text-xs text-red-500 font-medium'>{errMsg}</p> : undefined }

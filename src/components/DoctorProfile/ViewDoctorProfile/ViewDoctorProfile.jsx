@@ -1,8 +1,19 @@
 import React from 'react';
-import PageHeading from '../PageHeading/PageHeading';
+import PageHeading from '../../PageHeading/PageHeading';
 import { useParams } from 'react-router-dom';
-import useDoctors from '../../hooks/useDoctors';
-import mapPin from '../../assets/images/doctor_location.png';
+import useDoctors from '../../../hooks/useDoctors';
+import mapPin from '../../../assets/images/doctor_location.png';
+import ProfileOverview from '../ProfileOverview/ProfileOverview';
+import './ViewDoctorProfile.css';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+// import 'react-tabs/style/react-tabs.css';
+
+const tabs = [
+    { name: "Overview" },
+    { name: "Locations" },
+    { name: "Reviews" },
+    { name: "Business Hours" }
+];
 
 const ViewDoctorProfile = () => {
     const { id } = useParams();
@@ -10,7 +21,7 @@ const ViewDoctorProfile = () => {
     const selectedDoctor = doctors.find(doctor => doctor._id === id);
     
     const { _id, image, name, degree, location, service, about, awards, education, workExperience, ratings } = selectedDoctor;
-    console.log(selectedDoctor);
+    // console.log(selectedDoctor);
 
     return (
         <section className='doctorProfile'>
@@ -32,9 +43,9 @@ const ViewDoctorProfile = () => {
 
                         <div className='flex gap-3 items-center mt-2'>
                             {
-                                service.map(s => {
+                                service.map((s, idx) => {
                                     return (
-                                        <p className='text-xs text-gray-500 p-2 border rounded-md cursor-default hover:shadow-sm transition-all ease-in-out duration-100'>{s}</p>
+                                        <p key={idx} className='text-xs text-gray-500 p-2 border rounded-md cursor-default hover:shadow-sm transition-all ease-in-out duration-100'>{s}</p>
                                     )
                                 })
                             }
@@ -44,7 +55,24 @@ const ViewDoctorProfile = () => {
 
                 {/* doctorDetails div starts */}
                 <div className="doctorDetails p-5 mt-10 rounded-md border">
-                    <h1>Doctor Details</h1>
+                    <Tabs>
+                        <TabList className="tabList flex items-center ">
+                            {
+                                tabs.map((tab, idx) => {
+                                    return <Tab key={idx} className={`font-medium rounded-t-md py-2 px-5 text-slate-800 hover:text-white hover:bg-[#f7824f] active:bg-[#F7A582] cursor-default transition-all ease-in-out duration-200`}>{tab.name}</Tab>
+                                })
+                            }
+                        </TabList>
+
+                        <TabPanel><ProfileOverview doctorInfo={selectedDoctor}></ProfileOverview></TabPanel>
+
+                        <TabPanel><ProfileOverview doctorInfo={selectedDoctor}></ProfileOverview></TabPanel>
+
+                        <TabPanel><ProfileOverview doctorInfo={selectedDoctor}></ProfileOverview></TabPanel>
+
+                        <TabPanel><ProfileOverview doctorInfo={selectedDoctor}></ProfileOverview></TabPanel>
+                    </Tabs>
+                    {/* <ProfileOverview></ProfileOverview> */}
                 </div>
             </div>
         </section>

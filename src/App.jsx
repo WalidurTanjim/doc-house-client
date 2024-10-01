@@ -6,7 +6,7 @@ import SignUp from './components/SignUp/SignUp'
 import SignIn from './components/SignIn/SignIn'
 import Appointment from './pages/Appointment/Appointment/Appointment'
 import ErrorPage from './pages/ErrorPage/ErrorPage'
-import ViewDoctorProfile from './components/ViewDoctorProfile/ViewDoctorProfile'
+import ViewDoctorProfile from './components/DoctorProfile/ViewDoctorProfile/ViewDoctorProfile'
 
 function App({ children }) {
   const routes = createBrowserRouter([
