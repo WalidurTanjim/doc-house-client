@@ -95,10 +95,13 @@ const Slots = ({ service }) => {
 
     // bookAppointment handler
     const bookAppointment = (id, slot) => {
-        // show modal from ModalComponent after clicking "Book Appointment" btn
-        setOpen(true);
-        setSelectedSlot(slot);
-        // console.log(id, slot);
+        if(user){
+            setOpen(true);
+            setSelectedSlot(slot);
+            return;
+        }else{
+            navigate('/signIn')
+        }
     }
 
     return (
