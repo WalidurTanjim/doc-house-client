@@ -4,7 +4,7 @@ import plusIcon from '../../assets/images/signInPlus-icon.png';
 import halfPill from '../../assets/images/half_pill.png';
 import leanPill from '../../assets/images/lean_pill.png';
 import verticalPill from '../../assets/images/vertical_pill.png';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useForm } from "react-hook-form";
 import useAuth from '../../hooks/useAuth';
 import { toast } from 'react-toastify';
@@ -18,6 +18,10 @@ const SignUp = () => {
     const [ errMsg, setErrMsg ] = useState('');
     const { createUser, updateUserProfile, emailVerification } = useAuth();
     const passRegEx = /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{6,}$/;
+    const location = useLocation();
+    const navigate = useNavigate();
+    const triggeredLocation = location.state?.location.pathname;
+    // console.log("Location fro signUp page:", location, triggeredLocation);
 
     const { register, handleSubmit, reset, watch, formState: { errors } } = useForm()
     const onSubmit = (data) => {
@@ -50,6 +54,7 @@ const SignUp = () => {
                 theme: "light"
             });
             reset();
+            navigate(triggeredLocation || '/');
             console.log("Sign up user:", user);
         })
         .catch(err => {

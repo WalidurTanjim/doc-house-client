@@ -4,7 +4,7 @@ import plusIcon from '../../assets/images/signInPlus-icon.png';
 import halfPill from '../../assets/images/half_pill.png';
 import leanPill from '../../assets/images/lean_pill.png';
 import verticalPill from '../../assets/images/vertical_pill.png';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useForm } from "react-hook-form";
 import useAuth from '../../hooks/useAuth';
 import SocialSignIn from '../SocialSignIn/SocialSignIn';
@@ -13,6 +13,10 @@ const SignIn = () => {
     const [ showPassword, setShowPassword ] = useState(false);
     const [ errMsg, setErrMsg ] = useState('');
     const { signInUser, resetPassword } = useAuth();
+    const location = useLocation();
+    const navigate = useNavigate();
+    const triggeredLocation = location.state?.location.pathname;
+    // console.log("Location from signIn page:", location, triggeredLocation);
 
     const { register, handleSubmit, reset, watch, formState: { errors } } = useForm()
     const onSubmit = (data) => {
@@ -23,6 +27,7 @@ const SignIn = () => {
         .then(result => {
             const user = result.user;
             reset();
+            navigate(triggeredLocation || '/');
             console.log('Sign in user:', user);
         })
         .catch(err => {

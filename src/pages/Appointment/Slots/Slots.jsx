@@ -5,7 +5,7 @@ import SectionTitle from '../../../components/SectionTitle/SectionTitle';
 import { Dialog, DialogBackdrop, DialogPanel, DialogTitle } from '@headlessui/react'
 import { ExclamationTriangleIcon } from '@heroicons/react/24/outline'
 import useAuth from '../../../hooks/useAuth';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 
 // ModalComponent starts
@@ -80,7 +80,9 @@ const Slots = ({ service }) => {
     const [ slots, setSlots ] = useState([]);
     const selectedService = slots.find(slot => slot.name === service);
     const { user, open, setOpen, setSelectedSlot } = useAuth();
+    const location = useLocation();
     const navigate = useNavigate();
+    // console.log("Location of slots page:", location);
 
 
     useEffect(() => {
@@ -100,7 +102,7 @@ const Slots = ({ service }) => {
             setSelectedSlot(slot);
             return;
         }else{
-            navigate('/signIn')
+            navigate('/signIn', { state: { location }, replace: true });
         }
     }
 
