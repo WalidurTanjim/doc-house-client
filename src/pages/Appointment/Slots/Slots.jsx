@@ -10,7 +10,9 @@ import { useNavigate } from 'react-router-dom';
 
 // ModalComponent starts
 const ModalComponent = () => {
-    const { open, setOpen } = useAuth();
+    const { open, setOpen, selectedSlot } = useAuth();
+    const { serviceName, time } = selectedSlot;
+    // console.log("Selected slot from ModalComponent: ", selectedSlot);
 
     return (
         <Dialog open={open} onClose={setOpen} className="relative z-10">
@@ -22,13 +24,25 @@ const ModalComponent = () => {
                         <div className="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
                             <div className="sm:flex sm:items-start">
                                 <div className="mt-3 text-center sm:mt-0 sm:text-left w-full">
-                                    <DialogTitle as="h3" className="text-base font-semibold leading-6 text-gray-900">Deactivate account</DialogTitle>
+                                    <DialogTitle as="h3" className="text-base font-semibold leading-6 text-gray-900">{serviceName}</DialogTitle>
 
-                                    <div className="mt-3 w-full">
+                                    <div className='my-5'>
+                                        {/* date div starts */}
+                                        <div className='date mb-3'>
+                                            <input id="date" name="date" type="text" autoComplete="off" disabled={true} className="block w-full rounded-md px-2 py-1.5 bg-[#E6E6E6] border border-gray-300 focus:outline-[#4a817d] shadow-sm text-sm font-medium" />
+                                        </div>
+
+                                        {/* time div starts */}
+                                        <div className='time mb-3'>
+                                            <input id="time" name="time" type="text" autoComplete="off" defaultValue={time} disabled={true} className="block w-full rounded-md px-2 py-1.5 bg-[#E6E6E6] border border-gray-300 focus:outline-[#4a817d] shadow-sm text-sm font-medium" />
+                                        </div>
+                                    </div>
+
+                                    <div className="w-full">
                                         <form className="w-full">
                                             {/* fullName div starts */}
                                             <div className='fullName mb-3'>
-                                                <input id="fullName" name="fullName" type="fullName" autoComplete="off" placeholder="Full Name" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm text-sm" />
+                                                <input id="fullName" name="fullName" type="text" autoComplete="off" placeholder="Full Name" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm text-sm" />
                                             </div>
 
                                             {/* email div starts */}
@@ -62,9 +76,10 @@ const ModalComponent = () => {
 
 
 const Slots = ({ service }) => {
+    // console.log("Service as a props from appointment page in slots component: ", service);
     const [ slots, setSlots ] = useState([]);
     const selectedService = slots.find(slot => slot.name === service);
-    const { user, open, setOpen } = useAuth();
+    const { user, open, setOpen, setSelectedSlot } = useAuth();
     const navigate = useNavigate();
 
 
@@ -79,10 +94,11 @@ const Slots = ({ service }) => {
 
 
     // bookAppointment handler
-    const bookAppointment = id => {
+    const bookAppointment = (id, slot) => {
         // show modal from ModalComponent after clicking "Book Appointment" btn
         setOpen(true);
-        console.log(id);
+        setSelectedSlot(slot);
+        // console.log(id, slot);
     }
 
     return (
@@ -103,7 +119,7 @@ const Slots = ({ service }) => {
                                     <p className='text-xs font-medium mt-1'>{time}</p>
                                 </div>
 
-                                <button onClick={() => bookAppointment(idx)} className='text-center text-xs text-white px-3 sm:px-5 py-2 rounded-md bg-[#F7A582] hover:bg-[#f7824f] active:bg-[#F7A582]'>Book Appointment</button>
+                                <button onClick={() => bookAppointment(idx, slot)} className='text-center text-xs text-white px-3 sm:px-5 py-2 rounded-md bg-[#F7A582] hover:bg-[#f7824f] active:bg-[#F7A582]'>Book Appointment</button>
                             </div>
                         )
                     })

@@ -8,8 +8,9 @@ import PageHeading from '../../../components/PageHeading/PageHeading';
 
 const Appointment = () => {
     const { service, setService } = useAuth();
+    // console.log('Service from useAuth hook in appointment page: ', service);
     const [ services, setServices ] = useState([]);
-    // console.log(services);
+    // console.log("Services from appointment page:", services);
 
     useEffect(() => {
         const fetchData = async() => {
