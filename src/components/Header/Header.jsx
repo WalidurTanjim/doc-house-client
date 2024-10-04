@@ -94,8 +94,8 @@ const Header = () => {
                                     
                                     {/* profile links */}
                                     <MenuItems transition className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-100 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in">
-                                        <MenuItem><Link className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 rounded-t-md">Your Profile</Link></MenuItem>
-                                        <MenuItem><Link className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100">Settings</Link></MenuItem>
+                                        <MenuItem><Link to="/profile" className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 rounded-t-md">Your Profile</Link></MenuItem>
+                                        <MenuItem><Link to="/dashboard" className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100">Dashboard</Link></MenuItem>
                                         <MenuItem><p className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 rounded-b-md cursor-pointer" onClick={logOutHandler}>Sign out</p></MenuItem>
                                     </MenuItems>
                                 </Menu>
@@ -148,8 +148,8 @@ const Header = () => {
                             </div>
                             
                             <div className="profileLinks">
-                                <Link className='text-gray-300 hover:bg-[#143D3A] hover:text-white block rounded-md px-3 py-2 text-base font-medium'>Your Profile</Link>
-                                <Link className='text-gray-300 hover:bg-[#143D3A] hover:text-white block rounded-md px-3 py-2 text-base font-medium'>Settings</Link>
+                                <Link to="/profile" className='text-gray-300 hover:bg-[#143D3A] hover:text-white block rounded-md px-3 py-2 text-base font-medium'>Your Profile</Link>
+                                <Link to="/dashboard" className='text-gray-300 hover:bg-[#143D3A] hover:text-white block rounded-md px-3 py-2 text-base font-medium'>Dashboard</Link>
                                 <p className='text-gray-300 hover:bg-[#143D3A] hover:text-white block rounded-md px-3 py-2 text-base font-medium cursor-pointer' onClick={logOutHandler}>Sign out</p>
                             </div>
                         </div> :
