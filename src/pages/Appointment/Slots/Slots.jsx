@@ -135,7 +135,7 @@ const Slots = ({ service }) => {
                                     <p className='text-xs font-medium mt-1'>{time}</p>
                                 </div>
 
-                                <button onClick={() => bookAppointment(idx, slot)} className='text-center text-xs text-white px-3 sm:px-5 py-2 rounded-md bg-[#F7A582] hover:bg-[#f7824f] active:bg-[#F7A582]'>Book Appointment</button>
+                                <button onClick={() => bookAppointment(idx, slot)} className='text-center text-xs text-white px-3 sm:px-5 py-2 rounded-md bg-[#F7A582] hover:bg-[#f7824f] active:bg-[#F7A582] uppercase'>Book Appointment</button>
                             </div>
                         )
                     })

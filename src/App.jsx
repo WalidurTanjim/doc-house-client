@@ -7,6 +7,8 @@ import SignIn from './components/SignIn/SignIn'
 import Appointment from './pages/Appointment/Appointment/Appointment'
 import ErrorPage from './pages/ErrorPage/ErrorPage'
 import ViewDoctorProfile from './components/DoctorProfile/ViewDoctorProfile/ViewDoctorProfile'
+import AllUsers from './pages/Dashboard/AdminDashboard/AllUsers/AllUsers'
+import ManageDoctors from './pages/Dashboard/AdminDashboard/ManageDoctors/ManageDoctors'
 
 function App({ children }) {
   const routes = createBrowserRouter([
@@ -15,7 +17,9 @@ function App({ children }) {
       {path: '/appointment', element: <Appointment></Appointment>},
       {path: '/doctor/:id/profile', element: <ViewDoctorProfile></ViewDoctorProfile>},
       {path: '/signUp', element: <SignUp></SignUp>},
-      {path: '/signIn', element: <SignIn></SignIn>}
+      {path: '/signIn', element: <SignIn></SignIn>},
+      {path: '/allUsers', element: <AllUsers></AllUsers>},
+      {path: '/manageDoctors', element: <ManageDoctors></ManageDoctors>}
     ]},
     {
       path: '*', element: <ErrorPage></ErrorPage>

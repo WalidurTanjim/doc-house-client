@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react"
 import Banner from '../Banner/Banner';
 import InfoCard from '../InfoCard/InfoCard';
 import PatientReview from '../PatientReview/PatientReview';
