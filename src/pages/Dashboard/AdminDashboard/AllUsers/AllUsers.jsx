@@ -3,8 +3,8 @@ import DashboardRoutes from '../../../../components/DashboardRoutes/DashboardRou
 
 const AllUsers = () => {
     return (
-        <div>
-        <DashboardRoutes></DashboardRoutes>
+        <div className="profileInfoContainer container mx-auto px-6 my-16">
+            <DashboardRoutes></DashboardRoutes>
             <h1>All Users</h1>
         </div>
     );
