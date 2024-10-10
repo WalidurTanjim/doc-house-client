@@ -4,6 +4,7 @@ import useDoctors from '../../../../hooks/useDoctors';
 import useAxiosPublic from '../../../../hooks/useAxiosPublic';
 import useAxiosSecure from '../../../../hooks/useAxiosSecure';
 import Swal from 'sweetalert2';
+import { Link } from 'react-router-dom';
 
 const ManageDoctors = () => {
     const [doctors, refetch] = useDoctors();
@@ -50,17 +51,25 @@ const ManageDoctors = () => {
             <DashboardRoutes></DashboardRoutes>
 
             <section className="container px-4 mx-auto">
-                <div className="flex items-center gap-x-3">
-                    <h2 className="text-lg font-medium text-gray-800 dark:text-white">Total Doctors:</h2>
+                {/* doctors length & Add Doctor button div starts */}
+                <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-x-3">
+                        <h2 className="text-lg font-medium text-gray-800 dark:text-white">Total Doctors:</h2>
 
-                    <span className="px-3 py-1 text-xs text-blue-600 bg-blue-100 rounded-full dark:bg-gray-800 dark:text-blue-400">{doctors ? doctors.length : 0}</span>
+                        <span className="px-3 py-1 text-xs text-blue-600 bg-blue-100 rounded-full dark:bg-gray-800 dark:text-blue-400">{doctors ? doctors.length : 0}</span>
+                    </div>
+
+                    <Link to="/addDoctor"><button className='py-2 px-5 rounded-md text-[#F7A582] hover:text-white active:text-[#F7A582] border border-[#F7A582] hover:bg-[#F7A582] active:bg-white text-sm'>Add Doctor</button></Link>
                 </div>
 
+                
                 <div className="flex flex-col mt-6">
                     <div className="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
                         <div className="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
                             <div className="overflow-hidden border border-gray-200 dark:border-gray-700 md:rounded-lg">
+                                {/* table starts */}
                                 <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+                                    {/* thead starts */}
                                     <thead className="bg-gray-50 dark:bg-gray-800">
                                         <tr>
                                             <th scope="col" className="py-3.5 px-4 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400">
@@ -108,6 +117,7 @@ const ManageDoctors = () => {
                                         </tr>
                                     </thead>
 
+                                    {/* tbody starts */}
                                     <tbody className="bg-white divide-y divide-gray-200 dark:divide-gray-700 dark:bg-gray-900">
                                         {
                                             doctors.map((doctor, idx) => {

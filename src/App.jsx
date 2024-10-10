@@ -8,6 +8,7 @@ import Appointment from './pages/Appointment/Appointment/Appointment'
 import ErrorPage from './pages/ErrorPage/ErrorPage'
 import ViewDoctorProfile from './components/DoctorProfile/ViewDoctorProfile/ViewDoctorProfile'
 import AllUsers from './pages/Dashboard/AdminDashboard/AllUsers/AllUsers'
+import AddDoctor from './pages/Dashboard/AdminDashboard/AddDoctor/AddDoctor'
 import ManageDoctors from './pages/Dashboard/AdminDashboard/ManageDoctors/ManageDoctors'
 
 function App({ children }) {
@@ -19,6 +20,7 @@ function App({ children }) {
       {path: '/signUp', element: <SignUp></SignUp>},
       {path: '/signIn', element: <SignIn></SignIn>},
       {path: '/allUsers', element: <AllUsers></AllUsers>},
+      {path: '/addDoctor', element: <AddDoctor></AddDoctor>},
       {path: '/manageDoctors', element: <ManageDoctors></ManageDoctors>}
     ]},
     {
