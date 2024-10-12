@@ -10,6 +10,7 @@ import ViewDoctorProfile from './components/DoctorProfile/ViewDoctorProfile/View
 import AllUsers from './pages/Dashboard/AdminDashboard/AllUsers/AllUsers'
 import AddDoctor from './pages/Dashboard/AdminDashboard/AddDoctor/AddDoctor'
 import ManageDoctors from './pages/Dashboard/AdminDashboard/ManageDoctors/ManageDoctors'
+import PrivateRoute from './PrivateRoute/PrivateRoute'
 
 function App({ children }) {
   const routes = createBrowserRouter([
@@ -19,7 +20,7 @@ function App({ children }) {
       {path: '/doctor/:id/profile', element: <ViewDoctorProfile></ViewDoctorProfile>},
       {path: '/signUp', element: <SignUp></SignUp>},
       {path: '/signIn', element: <SignIn></SignIn>},
-      {path: '/allUsers', element: <AllUsers></AllUsers>},
+      {path: '/allUsers', element: <PrivateRoute><AllUsers></AllUsers></PrivateRoute>},
       {path: '/addDoctor', element: <AddDoctor></AddDoctor>},
       {path: '/manageDoctors', element: <ManageDoctors></ManageDoctors>}
     ]},

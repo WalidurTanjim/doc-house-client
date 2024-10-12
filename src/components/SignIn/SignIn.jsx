@@ -16,7 +16,8 @@ const SignIn = () => {
     const location = useLocation();
     const navigate = useNavigate();
     const triggeredLocation = location.state?.location.pathname;
-    // console.log("Location from signIn page:", location, triggeredLocation);
+    console.log(location)
+    console.log("Location from signIn page:", location, triggeredLocation);
 
     const { register, handleSubmit, reset, watch, formState: { errors } } = useForm()
     const onSubmit = (data) => {
