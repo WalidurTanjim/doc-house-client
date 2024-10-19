@@ -4,7 +4,7 @@ import DashboardRoutes from '../../../../components/DashboardRoutes/DashboardRou
 import useAuth from '../../../../hooks/useAuth';
 import axios from 'axios';
 import { PlusCircleIcon } from '@heroicons/react/24/outline'
-import { addEducationFields, addWorkExperienceFields } from './addDoctor.js';
+import { addEducationFields, addWorkExperienceFields, addAwardFields } from './addDoctor.js';
 
 const AddDoctor = () => {
     const { selectedOptions, setSelectedOptions } = useAuth();
@@ -195,6 +195,25 @@ const AddDoctor = () => {
                             <div id='workExperienceContainer' className='workExperienceContainer grid md:gap-5 grid-cols-1 md:grid-cols-2 mt-2 mb-3'>
                                 <input id="experience" name="experience" type="text" autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm  mb-2 md:mb-0" {...register("workExperience.experience", { required: true })} placeholder='Experience' />
                                 <input id="session" name="session" type="text" autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm" {...register("workExperience.session", { required: true })} placeholder='Session (2000 - 2001 format)' />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="awards mb-2">
+                        <div className='flex items-center justify-between'>
+                            <label htmlFor="workExperience" className="block text-sm font-medium leading-6 text-gray-900">Awards</label>
+
+                            <span id="plusCircleIcon" onClick={addAwardFields}><PlusCircleIcon className='w-5 h-5 text-gray-500 hover:text-gray-700 active:text-gray-500'></PlusCircleIcon></span>
+                        </div>
+
+                        <div id="awardsParent">
+                            <div id="awardContainer" className='awardContainer mt-1'>
+                                <div id='awardName_yearContainer' className='awardsContainer grid md:gap-5 grid-cols-1 md:grid-cols-2 mt-2'>
+                                    <input id="awardName" name="awardName" type="text" autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm  mb-2 md:mb-0" {...register("awardName", { required: true })} placeholder='Award Name' />
+                                    <input id="year" name="year" type="text" autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm" {...register("year", { required: true })} placeholder='Year' />
+                                </div>
+
+                                <textarea name="aboutAward" id="aboutAward" rows="2" autoComplete='off' placeholder='Write here about award...' className="block w-full rounded-md px-2 py-1.5 mt-2 border border-gray-300 focus:outline-[#4a817d] shadow-sm" {...register("aboutAward", { required: true })}></textarea>
                             </div>
                         </div>
                     </div>

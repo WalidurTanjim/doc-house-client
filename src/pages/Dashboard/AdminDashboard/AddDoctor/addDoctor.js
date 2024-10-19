@@ -89,3 +89,57 @@ export const addWorkExperienceFields = () => {
 
     workExperienceContainer.appendChild(div);
 }
+
+
+
+
+
+// addAwardFields
+export const addAwardFields = () => {
+    const awardsParent = document.getElementById('awardsParent');
+
+    const div = document.createElement('div');
+    div.id = "awardContainer";
+    div.className = "awardContainer mt-4";
+
+    const awardName_yearContainer = document.createElement('div');
+    awardName_yearContainer.id = "awardName_yearContainer";
+    awardName_yearContainer.className = "awardsContainer grid md:gap-5 grid-cols-1 md:grid-cols-2 mt-2";
+
+    // awardName field starts
+    const awardName = document.createElement('input');
+    awardName.id = "awardName";
+    awardName.name = "awardName";
+    awardName.type = 'text';
+    awardName.autocomplete = 'off';
+    awardName.className = "block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm  mb-2 md:mb-0";
+    awardName.placeholder = "Award Name";
+
+
+    // year field starts
+    const year = document.createElement('input');
+    year.id = "awardName";
+    year.name = "awardName";
+    year.type = 'text';
+    year.autocomplete = 'off';
+    year.className = "block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm  mb-2 md:mb-0";
+    year.placeholder = "Year";
+
+
+    // textarea field starts
+    const textarea = document.createElement('textarea');
+    textarea.id = "aboutAward";
+    textarea.name = "aboutAward";
+    textarea.rows = '2';
+    textarea.autocomplete = "off";
+    textarea.className = "block w-full rounded-md px-2 py-1.5 md:mt-2 border border-gray-300 focus:outline-[#4a817d] shadow-sm";
+    textarea.placeholder = "Write here about award...";
+
+    awardName_yearContainer.appendChild(awardName);
+    awardName_yearContainer.appendChild(year);
+
+    div.appendChild(awardName_yearContainer);
+    div.appendChild(textarea);
+
+    awardsParent.appendChild(div);
+}
