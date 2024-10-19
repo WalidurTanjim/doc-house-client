@@ -3,6 +3,8 @@ import { useForm } from "react-hook-form"
 import DashboardRoutes from '../../../../components/DashboardRoutes/DashboardRoutes';
 import useAuth from '../../../../hooks/useAuth';
 import axios from 'axios';
+import { PlusCircleIcon } from '@heroicons/react/24/outline'
+import { addEducationFields, addWorkExperienceFields } from './addDoctor.js';
 
 const AddDoctor = () => {
     const { selectedOptions, setSelectedOptions } = useAuth();
@@ -14,12 +16,14 @@ const AddDoctor = () => {
     const { register, handleSubmit, reset, watch, formState: { errors } } = useForm()
     
     const onSubmit = (data) => {
-        data.service = selectedOptions
-        console.log(data, {selectedOptions});
+        data.service = selectedOptions;
+        data.education = [data.education];
+        const { university, degrees, session, ...rest} = data;
+        console.log(data, rest);
     }
 
 
-    // service dropdown code
+    // service dropdown code starts
     useEffect(() => {
         const fetchAllServices = async() => {
             try{
@@ -53,6 +57,10 @@ const AddDoctor = () => {
     const filteredOptions = options.filter((option) =>
         option?.serviceName.toLowerCase().includes(searchTerm)
     );
+    // service dropdown code ends
+
+
+
 
 
     return (
@@ -157,7 +165,39 @@ const AddDoctor = () => {
                         </div>
                     </div>
                     
-                    
+                    <div className='education mb-2'>
+                        <div className='flex items-center justify-between'>
+                            <label htmlFor="education" className="block text-sm font-medium leading-6 text-gray-900">Education</label>
+
+                            <span id="plusCircleIcon" onClick={addEducationFields}><PlusCircleIcon className='w-5 h-5 text-gray-500 hover:text-gray-700 active:text-gray-500'></PlusCircleIcon></span>
+                        </div>
+
+                        <div id="educationParent">
+                            <div id="educationContainer" className="education mt-1">
+                                <input id="university" name="university" type="text" autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm" {...register("education.university", { required: true })} placeholder='University Name' />
+
+                                <div className='degree_sessionContainer grid md:gap-5 grid-cols-1 md:grid-cols-2 mt-2'>
+                                    <input id="degree" name="degree" type="text" autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm mb-2 md:mb-0" {...register("education.degrees", { required: true })} placeholder='Degree' />
+                                    <input id="session" name="session" type="text" autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm" {...register("education.session", { required: true })} placeholder='Session (2000 - 2001 format)' />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='workExperience mb-2'>
+                        <div className='flex items-center justify-between'>
+                            <label htmlFor="workExperience" className="block text-sm font-medium leading-6 text-gray-900">Work Experience</label>
+
+                            <span id="plusCircleIcon" onClick={addWorkExperienceFields}><PlusCircleIcon className='w-5 h-5 text-gray-500 hover:text-gray-700 active:text-gray-500'></PlusCircleIcon></span>
+                        </div>
+
+                        <div id="workExperienceParent">
+                            <div id='workExperienceContainer' className='workExperienceContainer grid md:gap-5 grid-cols-1 md:grid-cols-2 mt-2 mb-3'>
+                                <input id="experience" name="experience" type="text" autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm  mb-2 md:mb-0" {...register("workExperience.experience", { required: true })} placeholder='Experience' />
+                                <input id="session" name="session" type="text" autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm" {...register("workExperience.session", { required: true })} placeholder='Session (2000 - 2001 format)' />
+                            </div>
+                        </div>
+                    </div>
 
 
                     {/* aboutDoctor div starts */}
