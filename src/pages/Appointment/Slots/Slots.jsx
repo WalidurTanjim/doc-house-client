@@ -11,7 +11,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 
 // ModalComponent starts
 const ModalComponent = () => {
-    const { open, setOpen, selectedSlot } = useAuth();
+    const { user, open, setOpen, selectedSlot } = useAuth();
     const { serviceName, time } = selectedSlot;
     // console.log("Selected slot from ModalComponent: ", selectedSlot);
 
@@ -48,12 +48,12 @@ const ModalComponent = () => {
 
                                             {/* fullName div starts */}
                                             <div className='fullName mb-3'>
-                                                <input id="fullName" name="fullName" type="text" autoComplete="off" placeholder="Full Name" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm text-sm"  {...register("fullName", { required: true })} />
+                                                <input id="fullName" name="fullName" type="text" autoComplete="off" placeholder="Full Name" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm text-sm"  {...register("fullName", { required: true })} defaultValue={user?.displayName} />
                                             </div>
 
                                             {/* email div starts */}
                                             <div className='email mb-3'>
-                                                <input id="email" name="email" type="email" autoComplete="off" placeholder="Email Address" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm text-sm"  {...register("email", { required: true })} />
+                                                <input id="email" name="email" type="email" autoComplete="off" placeholder="Email Address" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm text-sm"  {...register("email", { required: true })} defaultValue={user?.email} />
                                             </div>
 
                                             {/* phoneNumber div starts */}
@@ -89,7 +89,6 @@ const Slots = ({ service }) => {
     const location = useLocation();
     const navigate = useNavigate();
     // console.log("Location of slots page:", location);
-
 
     useEffect(() => {
         try{
