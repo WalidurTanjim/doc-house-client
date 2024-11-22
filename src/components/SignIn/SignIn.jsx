@@ -12,7 +12,7 @@ import SocialSignIn from '../SocialSignIn/SocialSignIn';
 const SignIn = () => {
     const [ showPassword, setShowPassword ] = useState(false);
     const [ errMsg, setErrMsg ] = useState('');
-    const { signInUser, resetPassword } = useAuth();
+    const { signInUser, resetPassword, logOut } = useAuth();
     const location = useLocation();
     const navigate = useNavigate();
     const triggeredLocation = location.state?.location.pathname;

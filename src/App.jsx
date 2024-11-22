@@ -14,19 +14,18 @@ import PrivateRoute from './PrivateRoute/PrivateRoute'
 
 function App({ children }) {
   const routes = createBrowserRouter([
-    {path: '/', element: <Main></Main>, children: [
+    {path: '/', element: <Main></Main>,
+      errorElement: <ErrorPage></ErrorPage>,
+      children: [
       {path: '/', element: <Home></Home>},
       {path: '/appointment', element: <Appointment></Appointment>},
-      {path: '/doctor/:id/profile', element: <ViewDoctorProfile></ViewDoctorProfile>},
+      {path: '/doctor/:id/profile', element: <ViewDoctorProfile></ViewDoctorProfile>, loader: () => fetch('http://localhost:5000/doctors')},
       {path: '/signUp', element: <SignUp></SignUp>},
       {path: '/signIn', element: <SignIn></SignIn>},
       {path: '/allUsers', element: <PrivateRoute><AllUsers></AllUsers></PrivateRoute>},
       {path: '/addDoctor', element: <AddDoctor></AddDoctor>},
       {path: '/manageDoctors', element: <ManageDoctors></ManageDoctors>}
-    ]},
-    {
-      path: '*', element: <ErrorPage></ErrorPage>
-    }
+    ]}
   ])
 
   return (

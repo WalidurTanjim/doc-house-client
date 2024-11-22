@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import PageHeading from '../../PageHeading/PageHeading';
-import { useParams } from 'react-router-dom';
+import { useLoaderData, useParams } from 'react-router-dom';
 import useDoctors from '../../../hooks/useDoctors';
 import mapPin from '../../../assets/images/doctor_location.png';
 import ProfileOverview from '../ProfileOverview/ProfileOverview';
@@ -20,10 +20,17 @@ const tabs = [
 
 const ViewDoctorProfile = () => {
     const [ selectedTab, setSelectedTab ] = useState(0);
-
+    const allDoctors = useLoaderData();
+    
     const { id } = useParams();
     const [ doctors ] = useDoctors();
-    const selectedDoctor = doctors.find(doctor => doctor._id === id);
+    // const selectedDoctor = doctors.find(doctor => doctor._id === id);
+    const [selectedDoctor, setSelectedDoctor] = useState({});
+    
+    useEffect(() => {
+        const existDoctor = allDoctors.find(doc => doc._id === id);
+        setSelectedDoctor(existDoctor);
+    }, [allDoctors, id]);
     
     const { _id, image, name, degree, location, service, about, awards, education, workExperience, ratings } = selectedDoctor;
     // console.log(selectedDoctor);
@@ -48,7 +55,7 @@ const ViewDoctorProfile = () => {
 
                         <div className='flex gap-3 items-center mt-2'>
                             {
-                                service.map((s, idx) => {
+                                service?.map((s, idx) => {
                                     return (
                                         <p key={idx} className='text-xs text-gray-500 p-2 border rounded-md cursor-default hover:shadow-sm transition-all ease-in-out duration-100'>{s}</p>
                                     )

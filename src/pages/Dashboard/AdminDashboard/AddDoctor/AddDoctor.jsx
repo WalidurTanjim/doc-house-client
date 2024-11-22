@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { useForm } from "react-hook-form"
+import { useFieldArray, useForm } from "react-hook-form"
 import DashboardRoutes from '../../../../components/DashboardRoutes/DashboardRoutes';
 import useAuth from '../../../../hooks/useAuth';
 import axios from 'axios';
-import { PlusCircleIcon } from '@heroicons/react/24/outline'
-import { addEducationFields, addWorkExperienceFields, addAwardFields } from './addDoctor.js';
+import { PlusCircleIcon, TrashIcon } from '@heroicons/react/24/outline'
+import { addEducationFields, addWorkExperienceFields, addAwardFields } from './script.js';
 
 const AddDoctor = () => {
     const { selectedOptions, setSelectedOptions } = useAuth();
@@ -13,14 +13,32 @@ const AddDoctor = () => {
     const [searchTerm, setSearchTerm] = useState("");
 
 
-    const { register, handleSubmit, reset, watch, formState: { errors } } = useForm()
+    const { register, handleSubmit, control, reset, watch, formState: { errors } } = useForm({
+        defaultValues: {
+            education: [{ university: '', degrees: '', session: '' }],
+            workExperience: [{ experience: '', session: '' }],
+            awards: [{ awardName: '', year: '', aboutAward: '' }]
+        }
+    });
+
+    const { fields: educationFields, append: appendEducation, remove: removeEducation } = useFieldArray({
+        control,
+        name: 'education'
+    });
+
+    const { fields: workExperienceFields, append: appendWorkExperience, remove: removeWorkExperience } = useFieldArray({
+        control,
+        name: 'workExperience'
+    });
+
+    const { fields: awardFields, append: appendAward, remove: removeAward } = useFieldArray({
+        control,
+        name: "awards"
+    });
     
     const onSubmit = (data) => {
-        data.service = selectedOptions;
-        data.education = [data.education];
-        const { university, degrees, session, ...rest} = data;
-        console.log(data, rest);
-    }
+        console.log(data);
+    };
 
 
     // service dropdown code starts
@@ -165,57 +183,103 @@ const AddDoctor = () => {
                         </div>
                     </div>
                     
+                    {/* education starts */}
                     <div className='education mb-2'>
                         <div className='flex items-center justify-between'>
                             <label htmlFor="education" className="block text-sm font-medium leading-6 text-gray-900">Education</label>
 
-                            <span id="plusCircleIcon" onClick={addEducationFields}><PlusCircleIcon className='w-5 h-5 text-gray-500 hover:text-gray-700 active:text-gray-500'></PlusCircleIcon></span>
+                            <span id="plusCircleIcon" onClick={() => appendEducation({ university: '', degrees: '', session: '' })}><PlusCircleIcon className='w-5 h-5 text-gray-500 hover:text-gray-700 active:text-gray-500'></PlusCircleIcon></span>
                         </div>
 
-                        <div id="educationParent">
-                            <div id="educationContainer" className="education mt-1">
-                                <input id="university" name="university" type="text" autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm" {...register("education.university", { required: true })} placeholder='University Name' />
+                        {/* Dynamic Education Fields */}
+                        {
+                            educationFields.map((item, index) => (
+                                <div key={item.id} id="educationParent">
+                                    <div id="educationContainer" className="education mt-1">
+                                        <input id="university" name="university" type="text" autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm" {...register(`education.${index}.university`, { required: true })} placeholder='University Name' />
 
-                                <div className='degree_sessionContainer grid md:gap-5 grid-cols-1 md:grid-cols-2 mt-2'>
-                                    <input id="degree" name="degree" type="text" autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm mb-2 md:mb-0" {...register("education.degrees", { required: true })} placeholder='Degree' />
-                                    <input id="session" name="session" type="text" autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm" {...register("education.session", { required: true })} placeholder='Session (2000 - 2001 format)' />
+                                        <div className='degree_sessionContainer grid md:gap-5 grid-cols-1 md:grid-cols-2 mt-2'>
+                                            <input id="degree" name="degree" type="text" autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm mb-2 md:mb-0" {...register(`education.${index}.degrees`, { required: true })} placeholder='Degree' />
+                                            <input id="session" name="session" type="text" autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm" {...register(`education.${index}.session`, { required: true })} placeholder='Session (2000 - 2001 format)' />
+                                        </div>
+                                        <button
+                                            type="button"
+                                            onClick={() => removeEducation(index)}
+                                            className="text-gray-500 hover:text-red-500 mt-2"
+                                        >
+                                            <TrashIcon className="w-5 h-5" />
+                                        </button>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
+                            ))
+                        }
                     </div>
 
-                    <div className='workExperience mb-2'>
-                        <div className='flex items-center justify-between'>
-                            <label htmlFor="workExperience" className="block text-sm font-medium leading-6 text-gray-900">Work Experience</label>
+                    {/* workExperience starts */}
+                    <div className="workExperience mb-2">
+                        <div className="flex items-center justify-between">
+                            <label htmlFor="workExperience" className="block text-sm font-medium text-gray-900">Work Experience</label>
 
-                            <span id="plusCircleIcon" onClick={addWorkExperienceFields}><PlusCircleIcon className='w-5 h-5 text-gray-500 hover:text-gray-700 active:text-gray-500'></PlusCircleIcon></span>
+                            <button type="button" onClick={() => appendWorkExperience({ experience: '', session: '' })} className="text-gray-500 hover:text-gray-700 active:text-gray-500">
+                                <PlusCircleIcon className="w-5 h-5" />
+                            </button>
                         </div>
 
-                        <div id="workExperienceParent">
-                            <div id='workExperienceContainer' className='workExperienceContainer grid md:gap-5 grid-cols-1 md:grid-cols-2 mt-2 mb-3'>
-                                <input id="experience" name="experience" type="text" autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm  mb-2 md:mb-0" {...register("workExperience.experience", { required: true })} placeholder='Experience' />
-                                <input id="session" name="session" type="text" autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm" {...register("workExperience.session", { required: true })} placeholder='Session (2000 - 2001 format)' />
+                        {/* Dynamic Work Experience Fields */}
+                        {workExperienceFields.map((item, index) => (
+                            <div key={item.id} className="grid md:gap-5 grid-cols-1 md:grid-cols-2 mt-4 mb-4">
+                                <div className="relative">
+                                    <input {...register(`workExperience.${index}.experience`, { required: true })} className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm" placeholder="Experience" />
+                                </div>
+                                <div className="relative">
+                                    <input {...register(`workExperience.${index}.session`, { required: true })}
+                                        className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm" placeholder="Session (2000 - 2001)" />
+                                </div>
+
+                                <button type="button" onClick={() => removeWorkExperience(index)} className="text-gray-500 hover:text-red-500 ml-2"><TrashIcon className="w-5 h-5" /></button>
                             </div>
-                        </div>
+                        ))}
                     </div>
 
+                    {/* awards starts */}
                     <div className="awards mb-2">
                         <div className='flex items-center justify-between'>
                             <label htmlFor="workExperience" className="block text-sm font-medium leading-6 text-gray-900">Awards</label>
 
-                            <span id="plusCircleIcon" onClick={addAwardFields}><PlusCircleIcon className='w-5 h-5 text-gray-500 hover:text-gray-700 active:text-gray-500'></PlusCircleIcon></span>
+                            <span id="plusCircleIcon" onClick={() => appendAward({ awardName: '', year: '', aboutAward: '' })}><PlusCircleIcon className='w-5 h-5 text-gray-500 hover:text-gray-700 active:text-gray-500'></PlusCircleIcon></span>
+                            {/* onClick={addAwardFields} */}
                         </div>
 
-                        <div id="awardsParent">
-                            <div id="awardContainer" className='awardContainer mt-1'>
-                                <div id='awardName_yearContainer' className='awardsContainer grid md:gap-5 grid-cols-1 md:grid-cols-2 mt-2'>
-                                    <input id="awardName" name="awardName" type="text" autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm  mb-2 md:mb-0" {...register("awardName", { required: true })} placeholder='Award Name' />
-                                    <input id="year" name="year" type="text" autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm" {...register("year", { required: true })} placeholder='Year' />
+                        {/* Dynamic Awards Fields */}
+                        {awardFields.map((item, index) => (
+                            <div key={item.id} className="awardContainer mt-4 border-b pb-4">
+                                <div className="awardsContainer grid md:gap-5 grid-cols-1 md:grid-cols-2">
+                                    <input
+                                        {...register(`awards.${index}.awardName`, { required: true })}
+                                        placeholder="Award Name"
+                                        className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm"
+                                    />
+                                    <input
+                                        {...register(`awards.${index}.year`, { required: true })}
+                                        placeholder="Year"
+                                        className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm"
+                                    />
                                 </div>
-
-                                <textarea name="aboutAward" id="aboutAward" rows="2" autoComplete='off' placeholder='Write here about award...' className="block w-full rounded-md px-2 py-1.5 mt-2 border border-gray-300 focus:outline-[#4a817d] shadow-sm" {...register("aboutAward", { required: true })}></textarea>
+                                <textarea
+                                    {...register(`awards.${index}.aboutAward`, { required: true })}
+                                    placeholder="Write here about award..."
+                                    rows="2"
+                                    className="block w-full rounded-md px-2 py-1.5 mt-2 border border-gray-300 focus:outline-[#4a817d] shadow-sm"
+                                ></textarea>
+                                <button
+                                    type="button"
+                                    onClick={() => removeAward(index)}
+                                    className="text-gray-500 hover:text-red-500 mt-2"
+                                >
+                                    <TrashIcon className="w-5 h-5" />
+                                </button>
                             </div>
-                        </div>
+                        ))}
                     </div>
 
 
@@ -225,6 +289,16 @@ const AddDoctor = () => {
 
                         <div className="mt-1">
                             <textarea name="about" id="about" rows="5" autoComplete='off' placeholder='Write here about doctor...' className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm" {...register("about", { required: true })}></textarea>
+                        </div>
+                    </div>
+
+                    <div className="uploadImage mb-2">
+                        <label htmlFor="uploadImage" className='block text-sm font-medium leading-6 text-gray-900'>Upload Image</label>
+
+                        <div className="relative mt-1 inline-flex w-full items-center gap-2 rounded border border-slate-200 text-sm text-slate-500">
+                            <input id="file-upload" name="file-upload" type="file" className="peer order-2 [&::file-selector-button]:hidden" {...register("uploadImage", { required: true })} />
+
+                            <label htmlFor="file-upload" className="inline-flex h-10 cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded bg-[#F7A582] px-6 text-sm font-medium tracking-wide text-white transition duration-300 hover:bg-[#f7824f] active:bg-[#F7A582] focus:bg-[#F7A582] focus-visible:outline-none peer-disabled:cursor-not-allowed peer-disabled:border-[#F7A582] peer-disabled:bg-[#F7A582]">{" "}Upload a file{" "}</label>
                         </div>
                     </div>
         
