@@ -202,13 +202,8 @@ const AddDoctor = () => {
                                             <input id="degree" name="degree" type="text" autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm mb-2 md:mb-0" {...register(`education.${index}.degrees`, { required: true })} placeholder='Degree' />
                                             <input id="session" name="session" type="text" autoComplete="off" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm" {...register(`education.${index}.session`, { required: true })} placeholder='Session (2000 - 2001 format)' />
                                         </div>
-                                        <button
-                                            type="button"
-                                            onClick={() => removeEducation(index)}
-                                            className="text-gray-500 hover:text-red-500 mt-2"
-                                        >
-                                            <TrashIcon className="w-5 h-5" />
-                                        </button>
+
+                                        <button type="button" onClick={() => removeEducation(index)} lassName="text-gray-500 hover:text-red-500 mt-2"><TrashIcon className="w-5 h-5" /></button>
                                     </div>
                                 </div>
                             ))
@@ -254,30 +249,14 @@ const AddDoctor = () => {
                         {awardFields.map((item, index) => (
                             <div key={item.id} className="awardContainer mt-4 border-b pb-4">
                                 <div className="awardsContainer grid md:gap-5 grid-cols-1 md:grid-cols-2">
-                                    <input
-                                        {...register(`awards.${index}.awardName`, { required: true })}
-                                        placeholder="Award Name"
-                                        className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm"
-                                    />
-                                    <input
-                                        {...register(`awards.${index}.year`, { required: true })}
-                                        placeholder="Year"
-                                        className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm"
-                                    />
+                                    <input {...register(`awards.${index}.awardName`, { required: true })}  placeholder="Award Name" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm" />
+
+                                    <input {...register(`awards.${index}.year`, { required: true })} placeholder="Year" className="block w-full rounded-md px-2 py-1.5 border border-gray-300 focus:outline-[#4a817d] shadow-sm" />
                                 </div>
-                                <textarea
-                                    {...register(`awards.${index}.aboutAward`, { required: true })}
-                                    placeholder="Write here about award..."
-                                    rows="2"
-                                    className="block w-full rounded-md px-2 py-1.5 mt-2 border border-gray-300 focus:outline-[#4a817d] shadow-sm"
-                                ></textarea>
-                                <button
-                                    type="button"
-                                    onClick={() => removeAward(index)}
-                                    className="text-gray-500 hover:text-red-500 mt-2"
-                                >
-                                    <TrashIcon className="w-5 h-5" />
-                                </button>
+
+                                <textarea {...register(`awards.${index}.aboutAward`, { required: true })} placeholder="Write here about award..." rows="2" className="block w-full rounded-md px-2 py-1.5 mt-2 border border-gray-300 focus:outline-[#4a817d] shadow-sm"></textarea>
+
+                                <button type="button" onClick={() => removeAward(index)} className="text-gray-500 hover:text-red-500 mt-2"><TrashIcon className="w-5 h-5" /></button>
                             </div>
                         ))}
                     </div>

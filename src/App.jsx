@@ -11,6 +11,7 @@ import AllUsers from './pages/Dashboard/AdminDashboard/AllUsers/AllUsers'
 import AddDoctor from './pages/Dashboard/AdminDashboard/AddDoctor/AddDoctor'
 import ManageDoctors from './pages/Dashboard/AdminDashboard/ManageDoctors/ManageDoctors'
 import PrivateRoute from './PrivateRoute/PrivateRoute'
+import UserProfile from './components/UserProfile/UserProfile'
 
 function App({ children }) {
   const routes = createBrowserRouter([
@@ -22,6 +23,7 @@ function App({ children }) {
       {path: '/doctor/:id/profile', element: <ViewDoctorProfile></ViewDoctorProfile>, loader: () => fetch('http://localhost:5000/doctors')},
       {path: '/signUp', element: <SignUp></SignUp>},
       {path: '/signIn', element: <SignIn></SignIn>},
+      {path: '/profile', element: <UserProfile />},
       {path: '/allUsers', element: <PrivateRoute><AllUsers></AllUsers></PrivateRoute>},
       {path: '/addDoctor', element: <AddDoctor></AddDoctor>},
       {path: '/manageDoctors', element: <ManageDoctors></ManageDoctors>}
