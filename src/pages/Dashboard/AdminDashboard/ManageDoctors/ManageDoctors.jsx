@@ -26,13 +26,16 @@ const ManageDoctors = () => {
                 if (result.isConfirmed) {
                     try{
                         const res = await axiosPublic.delete(`/doctors/${id}`);
-                        console.log(res);
-                        if(res.status === 2000){
+                        // console.log(res);
+                        
+                        if(res.status === 200){
                             Swal.fire({
                                 title: "Deleted!",
                                 text: "Your file has been deleted.",
                                 icon: "success"
                             });
+
+                            refetch();
                         }
                     }catch(err) {
                         console.error(err);
