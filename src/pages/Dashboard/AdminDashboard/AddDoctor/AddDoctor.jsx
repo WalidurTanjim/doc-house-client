@@ -5,6 +5,9 @@ import useAuth from '../../../../hooks/useAuth';
 import axios from 'axios';
 import { PlusCircleIcon, TrashIcon } from '@heroicons/react/24/outline'
 import { addEducationFields, addWorkExperienceFields, addAwardFields } from './script.js';
+import useAxiosSecure from '../../../../hooks/useAxiosSecure.jsx';
+import Swal from 'sweetalert2';
+import { useNavigate } from 'react-router-dom';
 
 const AddDoctor = () => {
     const { selectedOptions, setSelectedOptions } = useAuth();
@@ -12,7 +15,35 @@ const AddDoctor = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [searchTerm, setSearchTerm] = useState("");
 
+    const [file, setFile] = useState('');   // image file
+    const [image, setImage] = useState(''); // image
+    // console.log("File:", file);
+    // console.log("Image:", image);
 
+    const axiosSecure = useAxiosSecure();
+    const navigate = useNavigate();
+
+    // upload image functions starts
+    // previewFile
+    const previewFile = file => {
+        const reader = new FileReader();
+        reader.readAsDataURL(file);
+
+        reader.onloadend = () => {
+            setImage(reader.result);
+        }
+    }
+
+    // handleChange
+    const handleChange = e => {
+        const photoFile = e.target.files[0];
+        setFile(photoFile);
+        previewFile(photoFile);
+    }
+    // upload image functions ends
+
+
+    // awards, education, workExperience with useFieldArray of react-hook-form starts
     const { register, handleSubmit, control, reset, watch, formState: { errors } } = useForm({
         defaultValues: {
             education: [{ university: '', degrees: '', session: '' }],
@@ -35,9 +66,52 @@ const AddDoctor = () => {
         control,
         name: "awards"
     });
+    // award, educations, workExperience with useFieldArray of react-hook-form ends
     
-    const onSubmit = (data) => {
-        console.log(data);
+    const onSubmit = async(data) => {
+        // upload image to cloudinary and get image live link to save it db
+        try{
+            const result = await axiosSecure.post('/', {
+                image: image
+            })
+
+            console.log("Result from cloudinary:", result.data);
+            
+            if(result?.data){
+                const image_live_link = result?.data?.secure_url; // image live link from cloudinary
+                console.log("Live link:", image_live_link)
+                data.image = image_live_link; // live link inject to the data
+                data.service = selectedOptions; // services the doctor provided
+
+
+                // upload the doctor info to the db
+                const postData = async() => {
+                    try{
+                        const res = await axiosSecure.post('/doctors', data);
+                        const dta = await res.data;
+
+                        if(dta?.insertedId){
+                            if(dta?.insertedId){
+                                Swal.fire({
+                                    title: "Congratulations",
+                                    text: "Doctor Added Successfully",
+                                    icon: "success"
+                                });
+
+                                navigate('/manageDoctors');
+                            }
+                        }
+                    }catch(err){
+                        console.error(err);
+                    }
+                }
+                postData();
+            }
+        }catch(err){
+            console.error(err);
+        }
+
+        console.log("Data:", data);
     };
 
 
@@ -275,7 +349,7 @@ const AddDoctor = () => {
                         <label htmlFor="uploadImage" className='block text-sm font-medium leading-6 text-gray-900'>Upload Image</label>
 
                         <div className="relative mt-1 inline-flex w-full items-center gap-2 rounded border border-slate-200 text-sm text-slate-500">
-                            <input id="file-upload" name="file-upload" type="file" className="peer order-2 [&::file-selector-button]:hidden" {...register("uploadImage", { required: true })} />
+                            <input id="file-upload" name="file-upload" type="file" className="peer order-2 [&::file-selector-button]:hidden" {...register("uploadImage", { required: true })} accept='image/png, image/jpg, image/jpeg' onChange={e => handleChange(e)} />
 
                             <label htmlFor="file-upload" className="inline-flex h-10 cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded bg-[#F7A582] px-6 text-sm font-medium tracking-wide text-white transition duration-300 hover:bg-[#f7824f] active:bg-[#F7A582] focus:bg-[#F7A582] focus-visible:outline-none peer-disabled:cursor-not-allowed peer-disabled:border-[#F7A582] peer-disabled:bg-[#F7A582]">{" "}Upload a file{" "}</label>
                         </div>

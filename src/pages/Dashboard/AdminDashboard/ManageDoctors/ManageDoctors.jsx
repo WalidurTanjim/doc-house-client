@@ -162,7 +162,7 @@ const ManageDoctors = () => {
                                                         <td className="px-4 py-4 text-sm whitespace-nowrap">
                                                             <div className="flex items-center gap-x-2">
                                                                 {
-                                                                    service.map((s, idx) => {
+                                                                    service?.map((s, idx) => {
                                                                         return (
                                                                             <p key={idx} className="px-3 py-1 text-xs text-indigo-500 rounded-full dark:bg-gray-800 bg-indigo-100/60 cursor-default">{s}</p>
                                                                         )

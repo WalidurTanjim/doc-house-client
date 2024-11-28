@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@cloudinary/react": "^1.13.1",
+    "@cloudinary/url-gen": "^1.21.0",
     "@headlessui/react": "^0.0.0-insiders.5ca68a9",
     "@heroicons/react": "^2.1.5",
     "@tanstack/react-query": "^5.56.2",
@@ -21,7 +23,7 @@
     "react-router-dom": "^6.26.2",
     "react-tabs": "^6.0.2",
     "react-toastify": "^10.0.5",
-    "sweetalert2": "^11.14.2",
+    "sweetalert2": "^11.6.13",
     "swiper": "^11.1.14"
   },
   "devDependencies": {
