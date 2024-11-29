@@ -26,6 +26,13 @@ const AuthProvider = ({ children }) => {
         })
     }
 
+    // updateUserProfileImage
+    const updateUserProfileImage = (user, image) => {
+        return updateProfile(user, {
+            photoURL: image
+        })
+    }
+
     // emailVerification
     const emailVerification = user => {
         return sendEmailVerification(user);
@@ -84,6 +91,7 @@ const AuthProvider = ({ children }) => {
         appointmentDate, setAppointmentDate,
         createUser,
         updateUserProfile,
+        updateUserProfileImage,
         emailVerification,
         signInUser,
         updateUserEmail,
