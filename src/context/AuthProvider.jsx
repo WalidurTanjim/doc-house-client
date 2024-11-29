@@ -12,6 +12,7 @@ const AuthProvider = ({ children }) => {
     const [ open, setOpen ] = useState(false); // show or hide modal after click "Book appointment button" of slot
     const [ selectedSlot, setSelectedSlot ] = useState(null);
     const [ selectedOptions, setSelectedOptions ] = useState([]);
+    const [ appointmentDate, setAppointmentDate ] = useState('');
 
     // createUser
     const createUser = (email, password) => {
@@ -80,6 +81,7 @@ const AuthProvider = ({ children }) => {
         open, setOpen,
         selectedSlot, setSelectedSlot,
         selectedOptions, setSelectedOptions,
+        appointmentDate, setAppointmentDate,
         createUser,
         updateUserProfile,
         emailVerification,

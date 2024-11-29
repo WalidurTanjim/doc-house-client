@@ -27,7 +27,7 @@ const ManageDoctors = () => {
                     try{
                         const res = await axiosPublic.delete(`/doctors/${id}`);
                         // console.log(res);
-                        
+
                         if(res.status === 200){
                             Swal.fire({
                                 title: "Deleted!",
@@ -144,7 +144,7 @@ const ManageDoctors = () => {
                                                                     
                                                                     <div>
                                                                         <h2 className="font-medium text-gray-800 dark:text-white ">{name}</h2>
-                                                                        <p className="text-sm font-normal text-gray-600 dark:text-gray-400">@authurmelo</p>
+                                                                        <p className="text-sm font-normal text-gray-600 dark:text-gray-400">{email}</p>
                                                                     </div>
                                                                 </div>
                                                             </div>

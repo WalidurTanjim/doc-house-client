@@ -75,7 +75,7 @@ const AddDoctor = () => {
                 image: image
             })
 
-            console.log("Result from cloudinary:", result.data);
+            // console.log("Result from cloudinary:", result.data);
             
             if(result?.data){
                 const image_live_link = result?.data?.secure_url; // image live link from cloudinary
@@ -111,7 +111,7 @@ const AddDoctor = () => {
             console.error(err);
         }
 
-        console.log("Data:", data);
+        // console.log("Data:", data);
     };
 
 

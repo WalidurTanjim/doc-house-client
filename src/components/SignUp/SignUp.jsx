@@ -10,6 +10,7 @@ import useAuth from '../../hooks/useAuth';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import SocialSignIn from '../SocialSignIn/SocialSignIn';
+import useAxiosPublic from '../../hooks/useAxiosPublic';
 
 const SignUp = () => {
     const [ showPassword, setShowPassword ] = useState(false);
@@ -17,6 +18,8 @@ const SignUp = () => {
     const [ repeatPassErrMsg, setRepeatPassErrMsg ] = useState('');
     const [ errMsg, setErrMsg ] = useState('');
     const { createUser, updateUserProfile, emailVerification } = useAuth();
+    const axiosPublic = useAxiosPublic();
+
     const passRegEx = /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{6,}$/;
     const location = useLocation();
     const navigate = useNavigate();
@@ -25,6 +28,8 @@ const SignUp = () => {
 
     const { register, handleSubmit, reset, watch, formState: { errors } } = useForm()
     const onSubmit = (data) => {
+        const userData = { name: data.fullName, email: data.email };
+
         setCreatePassErrMsg('');
         setRepeatPassErrMsg('');
         setErrMsg('');
@@ -41,6 +46,19 @@ const SignUp = () => {
         createUser(data.email, data.repeatPassword)
         .then(result => {
             const user = result.user;
+            if(user){
+                const postData = async() => {
+                    try{
+                        const res = await axiosPublic.post('/users', userData)
+                        const data = await res.data;
+                        // console.log("Response from users path to the server:", data);
+                    }catch(err){
+                        setErrMsg(err.message);
+                        console.error(err);
+                    }
+                };
+                postData();
+            }
             updateUserProfileHandler(user, data.fullName);
             emailVerificationHandler(user);
             toast.success('Account created successfully', {
@@ -55,7 +73,7 @@ const SignUp = () => {
             });
             reset();
             navigate(triggeredLocation || '/');
-            console.log("Sign up user:", user);
+            // console.log("Sign up user:", user);
         })
         .catch(err => {
             console.error(err);

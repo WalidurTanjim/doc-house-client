@@ -23,7 +23,7 @@ function App({ children }) {
       {path: '/doctor/:id/profile', element: <ViewDoctorProfile></ViewDoctorProfile>, loader: () => fetch('http://localhost:5000/doctors')},
       {path: '/signUp', element: <SignUp></SignUp>},
       {path: '/signIn', element: <SignIn></SignIn>},
-      {path: '/profile', element: <UserProfile />},
+      {path: '/profile', element: <PrivateRoute><UserProfile></UserProfile></PrivateRoute>},
       {path: '/allUsers', element: <PrivateRoute><AllUsers></AllUsers></PrivateRoute>},
       {path: '/addDoctor', element: <AddDoctor></AddDoctor>},
       {path: '/manageDoctors', element: <ManageDoctors></ManageDoctors>}
