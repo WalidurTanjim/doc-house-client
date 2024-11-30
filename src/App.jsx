@@ -24,7 +24,7 @@ function App({ children }) {
       {path: '/signUp', element: <SignUp></SignUp>},
       {path: '/signIn', element: <SignIn></SignIn>},
       {path: '/profile', element: <PrivateRoute><UserProfile></UserProfile></PrivateRoute>},
-      {path: '/allUsers', element: <PrivateRoute><AllUsers></AllUsers></PrivateRoute>},
+      {path: '/allUsers', element: <PrivateRoute><AllUsers></AllUsers></PrivateRoute>, loader: () => fetch('http://localhost:5000/users')},
       {path: '/addDoctor', element: <AddDoctor></AddDoctor>},
       {path: '/manageDoctors', element: <ManageDoctors></ManageDoctors>}
     ]}
