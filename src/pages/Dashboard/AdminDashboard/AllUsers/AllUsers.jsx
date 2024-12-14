@@ -33,6 +33,7 @@ const AllUsers = () => {
         }).then((result) => {
             if (result.isConfirmed) {
                 // axiosSecure.delete(`/users/${id}`)
+                // TODO: delete a user from db & also firebase
 
                 Swal.fire({
                     title: "Deleted!",
